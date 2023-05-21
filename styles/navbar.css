@@ -10,19 +10,23 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 5vh;
+    height: 7.5vh;
     width: 100vw;
     align-items: center;
     z-index: 999;
+    
 }
 
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0px 10px;
-    
+    transition: 0.3s;
     font-size: large;
     margin-top: 4px;
+}
+.navbar a:hover{
+    font-size: 20.5px;
 }
 #home{
     margin-left: 0px;

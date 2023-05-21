@@ -1,6 +1,6 @@
 @import "navbar.css";
 @import "./home.css";
-
+@import "AboutUs.css";
 * {
 margin: 0;
 padding: 0;
