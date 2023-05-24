@@ -327,8 +327,9 @@
         color: white;
         
       }
-      #h1-2{
+      .h1-2{
       margin-left: 10px;
+      margin-top: -15px;
       }
       .breaking-1{
         margin-left: 57%;
@@ -342,4 +343,5 @@
         margin-top: 1%;
         font-size: 40px;
         color: white;
+        margin-top: -15px;
       }
