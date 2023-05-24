@@ -138,6 +138,14 @@
         margin-left: 298px;
         position: relative; 
         z-index: 1;
+        transition: 0.2s;
+        cursor: pointer;
+        color: white;
+      }
+      .learnmore1:active{
+       /*opacity: 0.8; */
+       background-color: white;
+       color: blue;
       }
       .learnmore1 > h1 {
       font-size: 25px;
@@ -188,7 +196,13 @@
         margin-left: 310px;
         position: relative; 
         z-index: 1;
+        cursor: pointer;
       }
+      .learnmore2:active{
+        /*opacity: 0.8; */
+        background-color: white;
+        color: blue;
+       }
       .learnmore2 > h1 {
       font-size: 25px;
       text-align: center;
@@ -233,7 +247,13 @@
         margin-left: 298px;
         position: relative;
         z-index: 1;
+        cursor: pointer;
       }
+      .learnmore3:active{
+        /*opacity: 0.8; */
+        background-color: white;
+        color: blue;
+       }
       .learnmore3 > h1 {
       font-size: 25px;
       text-align: center;
@@ -297,7 +317,13 @@
         margin-left: 42%;
         position: relative; 
         z-index: 1;
+        cursor: pointer;
       }
+      .learnmore4:active{
+        /*opacity: 0.8; */
+        background-color: white;
+        color: blue;
+       }
       .learnmore4 > h1 {
       font-size: 25px;
       text-align: center;
