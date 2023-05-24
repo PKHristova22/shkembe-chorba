@@ -344,3 +344,19 @@ margin-top: -15px;
   color: white;
   margin-top: -15px;
 }
+.showmore{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: #515D6A 1px solid;
+  background-color: none;
+  margin-left: 58%;
+  position: relative;
+  z-index: 1;
+}
+.showmore> h1 {
+font-size: 25px;
+text-align: center;
+padding-top: 12px;
+color: white;
+}
