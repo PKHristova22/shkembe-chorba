@@ -1,8 +1,10 @@
-
+body{
+    background-color: rgba(10, 12, 38, 1);
+}
 
 
 .navbar {
-    background-color: #DCDEE0;
+    background-color: #3E445A;
     display: flex;
     justify-content: flex-start;
     box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.25);
@@ -34,7 +36,7 @@
 
 
 #separator {
-    width: 1px;
+    width: 1.5px;
     height: 30px; 
     background-color: black;
 }
@@ -72,37 +74,41 @@
     display: flex;
     width: auto;
     justify-content: center;
+    color: white;
     height: 40px;
     margin-top: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 30px;
     
 }
 .aboutus::before{
     content:"";
     display: block;
-    width: 550px;
+    width: 380px;
     height: 1px;
-    background: #000;
+    background: white;
     position: absolute;
-    left: 0;
-    top:85px;
+    left: 130px;
+    top:110px;
 }
 .aboutus::after{
     content:"";
     display: block;
-    width: 550px;
+    width: 380px;
     height: 1px;
-    background: #000;
+    background: white;
     position: absolute;
-    right: 0;
-    top:85px;
+    right: 130px;
+    top:110px;
 }
 .ino{
     display: flex;
     justify-content: center;
     font-size: larger;
+    color:white;
+    font-family: 'Comfortaa', cursive;
 }
+
 .infos{
     display: flex;
     justify-content: center;
@@ -113,71 +119,155 @@
 }
 .info1{
     background-color: rgba(202, 203, 204, 1);
-    width: 3000px;
-    height: 95px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
     text-align: center;
     color: white;
+    transition: 0.2s;
+}
+.infos3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 150px;
+    margin-top: -10px;
 }
 .info2{
     background-color: rgba(202, 203, 204, 1);
-    width: 3000px;
-    height: 95px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
     text-align: center;
     color: white;
+    transition: 0.2s;
 }
+
 .infos2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-left: 70px;
     margin-right: 70px;
-    gap: 400px;
+    gap: 100px;
+    margin-top: -20px;
 }
 .info3{
     background-color: rgba(202, 203, 204, 1);
-    width: 3000px;
-    height: 95px;
-    border-radius: 10px;
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
     text-align: center;
     color: white;
+    transition: 0.2s;
 }
 .info4{
     background-color: rgba(202, 203, 204, 1);
-    width: 3000px;
-    height: 95px;
-    border-radius: 10px;
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
     text-align: center;
     color: white;
+    transition: 0.2s;
 }
 .Quote{
     display: flex;
     width: auto;
     justify-content: center;
+    align-content: center;
+    color: white;
     height: 40px;
     margin-top: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+     font-size: 22px;
     
 }
 .Quote::before{
     content:"";
     display: block;
-    width: 485px;
+    width: 380px;
     height: 1px;
-    background: #000;
+    background: white;
     position: absolute;
-    left: 0;
-    top:481px;
+    left: 50px;
+    top:610px;
 }
 .Quote::after{
     content:"";
     display: block;
-    width: 485px;
+    width: 380px;
     height: 1px;
-    background: #000;
+    background: white;
     position: absolute;
-    right: 0;
-    top:481px;
+    right: 50px;
+    top:610px;
+    justify-content: center;
 }
+.simeon{
+    background-color: rgba(202, 203, 204, 1);
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+.rashkow{
+    background-color: rgba(202, 203, 204, 1);
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+.nedko{
+    background-color: rgba(202, 203, 204, 1);
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+.Perla{
+    background-color: rgba(202, 203, 204, 1);
+    width: 135px;
+    height: 130px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+
+.info1:hover{
+    width: 155px;
+    height: 150px;
+}
+.Perla:hover{
+    width: 155px;
+    height: 150px;
+}
+.info2:hover{
+    width: 155px;
+    height: 150px;
+}
+.nedko:hover{
+    width: 155px;
+    height: 150px;
+}
+.info3:hover{
+    width: 155px;
+    height: 150px;
+}
+.simeon:hover{
+    width: 155px;
+    height: 150px;
+}
+.info4:hover{
+    width: 155px;
+    height: 150px;
+}
+.rashkow:hover{
+    width: 155px;
+    height: 150px;
+}
+
