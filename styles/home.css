@@ -1,6 +1,6 @@
 
     .blank{
-        width: 100%; /* Corrected unit from 100wh to 100vw */
+        width: 100%; 
         height: 500px;
         position: relative;
         background-color: #AEB1B5;
