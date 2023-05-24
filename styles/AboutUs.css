@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgba(10, 12, 38, 1);
 }
@@ -68,6 +69,10 @@ body{
     mix-blend-mode: color-burn;
 }
 
+=======
+
+@import "./navbar.css";
+>>>>>>> c01940717d4415e14660110049a6e1f32857cb43
 
 
 .aboutus{
