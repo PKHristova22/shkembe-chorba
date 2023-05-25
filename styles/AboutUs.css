@@ -71,7 +71,7 @@ body{
     margin-top: -10px;
 }
 .info2{
-    background-color: rgba(202, 203, 204, 1);
+    background-color: rgb(202, 203, 204);
     display: flex;
     justify-content: center;
     width: 135px;
