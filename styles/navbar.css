@@ -6,7 +6,7 @@ nav > ul {
 
 nav {
   height: 3.5em;
-  background-color: #3E445A;
+  background-color: #03080C;
   position: relative;
   box-shadow: 0 0px 3px 0px #000;
   
@@ -178,7 +178,7 @@ nav {
   }
   .lang-ch {
     right: 20px;
-    
+
   }
 
   #proj-men:checked ~ .nested {
