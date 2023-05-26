@@ -1,64 +1,197 @@
-
-.navbar {
-    background-color: #3E445A;
-    display: flex;
-    justify-content: flex-start;
-    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.25);
-    position: sticky;
-    top: 0%;
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 5%;
-    width: 100%;
-    align-items: center;
-    z-index: 999;
+/* removing the dot before the  list items */
+nav > ul > ul,
+nav > ul {
+  list-style-type: none;
 }
 
-.navbar a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0px 10px;
-    transition: 0.3s;
-    font-size: large;
-    margin-top: 4px;
-}
-.navbar a:hover{
-    font-size: 20.5px;
-}
-#home{
-    margin-left: 0px;
+nav {
+  height: 3.5em;
+  background-color: #3E445A;
+  position: relative;
+  box-shadow: 0 0px 3px 0px #000;
+  
 }
 
+/*The design for the button which changes the language */
 
-#separator {
-    width: 1.5px;
-    height: 24px; 
-    background-color: rgb(0, 0, 0);
+#proj-men {
+  display: none;
+}
+
+/* Hamburger manu styling */
+/* Making the line for the hamburge menu */
+.strip {
+  width: 40px;
+  height: 5px;
+  background-color: black;
+}
+.hamb-menu {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.hamb-menu:hover {
+  transform: scale(1.1);
+}
+.hamb-menu:active {
+  transform: scale(0.9);
+}
+.nav-El {
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  background-color: white;
+  transition: ease-in-out 0.3s;
+  z-index: 1000;
+}
+#menu:checked ~ .nav-El {
+  left: 0;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+#menu:checked ~ .hamb-menu > .strip1 {
+  transform: rotate(45deg) translate(13px);
+}
+
+#menu:checked ~ .hamb-menu > .strip3 {
+  transform: rotate(-45deg) translate(14px);
+}
+#menu:checked ~ .hamb-menu > .strip2 {
+  opacity: 0;
+}
+.logo-link {
+  z-index: 10000;
+}
+.hamb-menu > .strip1,
+.hamb-menu > .strip2,
+.hamb-menu > .strip3 {
+  transition: ease-in-out 0.3s;
+}
+
+/* the drop down menu styling */
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+  height: 40px;
+  color: black;
+  cursor: pointer;
+  background-color: #e0fffc;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.proj {
+  display: none;
+}
+
+.nav-El {
+  left: -100%;
+}
+
+.nav-link:hover {
+  background-color: #a6bdba;
+  letter-spacing: 5px;
+}
+
+.nav-link:active {
+  transform: scale(0.95);
+}
+
+/* logo styling */
+.logo-box {
+  display: grid;
+  margin-left: 6px;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  height: 3.35em;
 }
 
 .logo {
-    width: 37px; 
-    margin-right: 10px;
-    align-self: center;
+  background-image: url(../images/home/logo.png);
+  width: 55px;
+  height: 55px;
 }
-.aboutuslogo {
+@media  (width > 45em) {
+  .nav-El {
+    top: 0;
+    background-color: #ffffff00;
+    z-index: 1000;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+
+  }
+  .nav-link {
+    height: 35px;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: #e0fffc;
+    padding: 0.7em;
+    border-radius: 5px;
+    user-select: none;
+    transition: ease-in-out 0.3s;
+  }
+  .nav-El {
+    left: 0;
+    list-style-type: none;
+  }
+  .nested {
+    position: absolute;
+    opacity: 0;
+    margin-top: 5px;
+    transition: ease-in-out 0.3s;
+    left: -100%;
+    min-width: fit-content;
+  }
+  .nested > li > a:hover {
+    letter-spacing: normal;
+  }
+  .nested > li > a {
+    word-break: break-all;
+    height: fit-content;
+    justify-content: center;
+    min-width: max-content;
+  }
+  .nested > li {
+    margin-top: 3px;
+  }
+  .hamb-menu {
+    display: none;
+  }
+  .lang-ch {
+    right: 20px;
     
-    width: 30px;
-    margin-left: 10px;
-    align-self: center;
-    mix-blend-mode: color-burn;
-}
-.homelogo{
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 5px;
-    align-self: center;
-    mix-blend-mode: color-burn;
-}
-.faqlogo{
-    width: 30px;
-    margin-left: 10px;
-    margin-right: -8px;
-    align-self: center;
-    mix-blend-mode: color-burn;
+  }
+
+  #proj-men:checked ~ .nested {
+    left: inherit;
+    opacity: 1;
+  }
+  #proj-men {
+    display: none;
+  }
+
+  /* Changing the main */
+  .main-bg {
+    height: 28em;
+    width: 77em;
+  }
 }
