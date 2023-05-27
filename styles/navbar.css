@@ -6,10 +6,8 @@ nav > ul {
 
 nav {
   height: 3.5em;
-  background-color: #03080C;
+  background-color: #03080C00;
   position: relative;
-  box-shadow: 0 0px 3px 0px #000;
-  
 }
 
 /*The design for the button which changes the language */

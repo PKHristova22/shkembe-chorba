@@ -1,7 +1,7 @@
 
 @import url(./navbar.css);
 body{
-    background-color: rgba(10, 12, 38, 1);
+    background-color: #181A1B;
 }
 .aboutus{
     display: flex;
