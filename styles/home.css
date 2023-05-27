@@ -1,460 +1,163 @@
-.blank{
-  width: 100%; 
-  height: 500px;
+#bgd{
+  background-color: #03080C;
+}
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+body:target #scrollToTopButton,
+body:hover #scrollToTopButton {
+  display: block;
+}
+
+#scrollToTopButton img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.blank {
+  background-image: url(../images/Robot_Hand-1024x576-MM-80\ 1.jpg);
+  width: 100%;
+  height: 650px;
   position: relative;
-  background-color: #AEB1B5;
+  background-color: #aeb1b5;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.zaglawie {
+  color: white;
   display: flex;
+  font-size: 45px;
   justify-content: center;
+  padding-top: 119px;
+}
+.citat-1-1-1 {
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  padding-top: 189px;
+}
+
+.about-robots-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #181a1b;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-
-    .blank{
-        width: 100%; 
-        height: 500px;
-        position: relative;
-        background-color: #AEB1B5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img{
-        
-        background-color: none;
-        position: absolute;
-        z-index: 0;
-     
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    }   
-    .img1{
-    bottom: 0;
-    left: 0;
-    background-image: url(../images/left.jpg);
-    width: 500px;
-    height: 100%;
-    }
-
-    .img2
-    {
-        top: 0;
-        right: 0;
-        background-image: url(../images/right.jpg);
-        width: 500px;
-        height: 100%;
-    }
-    .textpath{
-        position: relative;
-        z-index: 1;
-        width: 90%;
-        height: 100%;  
-    background-image: url(../images/Subtract.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    }
-    @media (max-width: 750px) { /* Corrected the media query */
-        .img{
-            background-image: none;
-           background-color: rgb(112, 249, 0);
-        }
-    }
-
-    .text1{
-      width: 400px;
-      height: 230px;
-      text-align: start;
-      margin-left: 125px;
-      margin-top: 0.5%;
-      font-size: 20px;
-      color: rgb(232, 208, 208);
-      
-    }
-    .text2{
-      width: 400px;
-      height: 230px;
-      text-align: start;
-      font-size: 20px;
-      margin-left: 485px;
-      margin-top: -150px;
-      color: rgb(232, 208, 208);
-    }
-    .text3{
-      width: 400px;
-      height: 230px;
-      text-align: start;
-      margin-left: 870px;
-      margin-top: -90px;
-      color: rgb(232, 208, 208);
-      font-size: 20px;
-    }
-    .photo-grid {
-        position: relative;
-        width: 100%;
-        height: 700px;
-        background-color: #0A0C26;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        overflow: hidden;
-      }
-      .types{
-      text-align: center;
-       margin-left: 41%;
-       margin-bottom: 42%;
-       color: white;
-    
-
-      }
-      
-      .img1-1 {
-        background-color: rgb(212, 13, 226);
-        width: 715px;
-        height: 280px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 5%;
-        margin-left: 2%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        
-       
-      }
-      .Industrial{
-        align-items: center;
-        margin-top: -288px;
-        margin-left: 170px;
-        font-size: 25px;
-        color: white;
-      }
-      .info1-1{
-        font-size: 30px;
-        color: white;
-        margin-top: 10px;
-        margin-left: 20px;
-
-      }
-      .learnmore1{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        background-color: #515D6A;
-        margin-top: 1.5%;
-        margin-left: 298px;
-        position: relative; 
-        z-index: 1;
-        transition: 0.2s;
-        cursor: pointer;
-        color: white;
-      }
-      .learnmore1:active{
-       /*opacity: 0.8; */
-       background-color: white;
-       color: blue;
-      }
-      .learnmore1 > h1 {
-      font-size: 25px;
-      text-align: center;
-      padding-top: 12px;
-      color: white;
-      }
-      .img2-2 {
-        background-color: rgb(212, 13, 226);
-        width: 715px;
-        height: 280px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-right: 2%;
-        margin-top: 5%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-      }
-      .service{
-        align-items: center;
-        margin-top: -288px;
-        margin-left: 91px;
-        font-size: 25px;
-        color: white;
-      }
-      .robotsin{
-        align-items: center;
-        margin-top: -58px;
-        margin-left: 171px;
-        color: #15BBBE;
-        font-size: 50px;
-      }
-      .info2-2{
-        font-size: 30px;
-        color: white;
-        margin-top: 29px;
-        margin-left: 20px;
-
-      }
-      .learnmore2{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        background-color: #515D6A;
-        margin-top: 3.5%;
-        margin-left: 310px;
-        position: relative; 
-        z-index: 1;
-        cursor: pointer;
-      }
-      .learnmore2:active{
-        /*opacity: 0.8; */
-        background-color: white;
-        color: blue;
-       }
-      .learnmore2 > h1 {
-      font-size: 25px;
-      text-align: center;
-      padding-top: 12px;
-      color: white;
-      }
-
-      
-      .img3 {
-        background-color: rgb(212, 13, 226);
-        width: 715px;
-        height: 280px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-       margin-bottom: 1.9%;
-        margin-left: 2%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-      }
-      .Industrial{
-        align-items: center;
-        margin-top: -288px;
-        margin-left: 170px;
-        font-size: 25px;
-        color: white;
-      }
-      .info3-3{
-        font-size: 30px;
-        color: white;
-        margin-top: 10px;
-        margin-left: 20px;
-
-      }
-      .learnmore3{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        background-color: #515D6A;
-        margin-top: 6%;
-        margin-left: 298px;
-        position: relative;
-        z-index: 1;
-        cursor: pointer;
-      }
-      .learnmore3:active{
-        /*opacity: 0.8; */
-        background-color: white;
-        color: blue;
-       }
-      .learnmore3 > h1 {
-      font-size: 25px;
-      text-align: center;
-      padding-top: 12px;
-      color: white;
-      }
-      .Educational{
-        align-items: center;
-        margin-top: -288px;
-        margin-left: 64px;
-        font-size: 25px;
-        color: white;
-      }
-      .robotsinf{
-        align-items: center;
-        margin-top: -58px;
-        margin-left: 339px;
-        color: #15BBBE;
-        font-size: 25px;
-      }
-
-      .img4 {
-        background-color: rgb(212, 13, 226);
-        width: 715px;
-        height: 280px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin-bottom: 1.9%;
-        margin-right: 2%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-      }
-      .Autonomous{
-        align-items: center;
-        margin-top: -288px;
-        margin-left: 47px;
-        font-size: 25px;
-        color: white;
-      }
-      .robots{
-        align-items: center;
-        margin-top: -58px;
-        margin-left: 287px;
-        color: #15BBBE;
-      }
-      .info4-4{
-        font-size: 30px;
-        color: white;
-        margin-top: 10px;
-        margin-left: 20px;
-      }
-  
-      .learnmore4{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        background-color: #515D6A;
-        margin-top: 1%;
-        margin-left: 42%;
-        position: relative; 
-        z-index: 1;
-        cursor: pointer;
-      }
-      .learnmore4:active{
-        /*opacity: 0.8; */
-        background-color: white;
-        color: blue;
-       }
-      .learnmore4 > h1 {
-      font-size: 25px;
-      text-align: center;
-      padding-top: 12px;
-      color: white;
-      }
-      .news{
-        width: 100%;
-        height: 400px;   
-        background-color: #181A1B;
-      }
-      .phnews{
-        width: 100%;
-        height: 373px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        padding-top: 30px;
-        padding-bottom: 0px;
-      }
-      .latest{
-        margin-left: 56%;
-        margin-top: -23%;
-        font-size: 27px;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        
-      }
-      .h1-2{
-      margin-left: 10px;
-      margin-top: -15px;
-      }
-      .breaking-1{
-        margin-left: 57%;
-        margin-top: 1%;
-        font-size: 40px;
-        color: white;
-      }
-.img{
-  
-  background-color: none;
-  position: absolute;
-  z-index: 0;
-
-
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-}   
-.img1{
-bottom: 0;
-left: 0;
-background-image: url(../images/left.jpg);
-width: 500px;
-height: 100%;
+.about-robots-section > h1 {
+  padding-left: 3%;
 }
-
-.img2
-{
-  top: 0;
-  right: 0;
-  background-image: url(../images/right.jpg);
-  width: 500px;
+.wrapper {
+  width: 100%;
   height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-.textpath{
-  position: relative;
-  z-index: 1;
-  width: 90%;
-  height: 100%;  
-background-image: url(../images/Subtract.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-
+.section-one,
+.section-three {
+  padding-left: 15px;
 }
-@media (max-width: 750px) { /* Corrected the media query */
-  .img{
-      background-image: none;
-     background-color: rgb(112, 249, 0);
-  }
-}
-
-.text1{
-width: 400px;
-height: 230px;
-text-align: start;
-margin-left: 125px;
-margin-top: 0.5%;
-font-size: 20px;
-color: rgb(232, 208, 208);
-
-}
-.text2{
-width: 400px;
-height: 230px;
-text-align: start;
-font-size: 20px;
-margin-left: 485px;
-margin-top: -150px;
-color: rgb(232, 208, 208);
-}
-.text3{
-width: 400px;
-height: 230px;
-text-align: start;
-margin-left: 870px;
-margin-top: -90px;
-color: rgb(232, 208, 208);
-font-size: 20px;
-}
-.photo-grid {
+.section {
   position: relative;
   width: 100%;
-  height: 700px;
-  background-color: #0A0C26;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
+  height: 100%;
+  color: white;
 }
+
+.section-one > .bg-image {
+  background-image: url("../images/1.jpg");
+}
+.section-two,
+.section-four {
+  padding-right: 15px;
+}
+
+.section-two > .bg-image {
+  background-image: url("../images/2.jpg");
+}
+
+.section-three > .bg-image {
+  background-image: url("../images/3.jpg");
+}
+
+.section-four > .bg-image {
+  background-image: url("../images/4.jpg");
+}
+
+.bg-image {
+  background-position: center;
+  background-position: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg-image > h2 {
+  position: absolute;
+  top: 25px;
+}
+
+.bg-image > p {
+  margin-top: 15px;
+  width: 30ch;
+  font-size: 1.252rem;
+}
+
+.bg-image > a {
+  position: absolute;
+  bottom: 25px;
+  color: white;
+  font-size: 1.3rem;
+  background-color: #515d6a;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.about-robots-section > h1 {
+  color: white;
+  margin: 20px auto;
+}
+.robots1 {
+  left: 148px;
+  color: #15bbbe;
+}
+.robots2 {
+  left: 120px;
+  color: #15bbbe;
+}
+.robots3 {
+  left: 180px;
+  color: #15bbbe;
+}
+.robots4 {
+  left: 190px;
+  color: #15bbbe;
+}
+.news {
+  width: 100%;
+  height: 400px;
+  background-color: #181a1b;
+}
+
 .types{
 text-align: center;
  margin-left: 41%;
@@ -687,54 +390,47 @@ color: white;
   padding-top: 30px;
   padding-bottom: 0px;
 }
-.latest{
-  margin-left: 56%;
-  margin-top: -23%;
+.latest {
+  margin-left: 1%;
+  margin-top: -22%;
   font-size: 27px;
   justify-content: center;
   flex-direction: column;
   color: white;
-  
 }
-.h1-2{
-margin-left: 10px;
-margin-top: -15px;
-}
-.breaking-1{
-  margin-left: 57%;
-  margin-top: 1%;
-  font-size: 40px;
-  color: white;
-
-}
-.breaking-2{
-  margin-left: 74.6%;
-  margin-top: 1%;
-  font-size: 40px;
-  color: white;
+.h1-2 {
+  margin-left: 10px;
   margin-top: -15px;
 }
-.showmore{
+.breaking-1 {
+  margin-left: 56%;
+  margin-top: 1%;
+  font-size: 40px;
+  color: white;
+}
+.showmore {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 11px;
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  border: #515D6A 1px solid;
+  border: #515d6a 5px solid;
   background-color: none;
-  margin-left: 58%;
+  margin-left: 1%;
+  margin-top: 4%;
   position: relative;
   z-index: 1;
   cursor: pointer;
   transition: 0.2s;
   color: white;
 }
-.showmore:hover{
-  background-color: white;
-  color:rgb(0, 94, 255);
+.showmore:hover {
+  background-color: #515d6a;
+  color: #ffffff;
 }
+
 .learnmore1:hover{
   opacity: 0.7;
 }
@@ -747,3 +443,11 @@ margin-top: -15px;
 .learnmore4:hover{
   opacity: 0.7;
 }
+
+a {
+  text-decoration: none;
+}
+body{
+  background-color: #000;
+}
+

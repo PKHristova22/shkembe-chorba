@@ -1,7 +1,7 @@
 
-@import "./navbar.css";
+@import url(./navbar.css);
 body{
-    background-color: rgba(10, 12, 38, 1);
+    background-color: #181A1B;
 }
 .aboutus{
     display: flex;
@@ -72,6 +72,8 @@ body{
 .info2{
    background-image: url("../images/profilepicturev2\ \(2\).jpg");
     background-size:cover ;
+    background-color: rgb(202, 203, 204);
+    display: flex;
     justify-content: center;
     width: 135px;
     height: 130px;

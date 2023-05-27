@@ -5,138 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>  
 <link rel="stylesheet" href="styles/style.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  window.addEventListener('scroll', function() {
+      var scrollToTopButton = document.getElementById('scrollToTopButton');
+      if (window.pageYOffset > 100) {
+          scrollToTopButton.style.display = 'block';
+      } else {
+          scrollToTopButton.style.display = 'none';
+      }
+  });
+</script>
 </head>
-<body background="./images/blured orb.svg" class="background-container">
-    <nav class="navbar">
-        <img class="logo" src="./images/logo.svg">
-        <div id="separator"></div>
-        <img class="homelogo" src="./images/25694.png" >
-        <a id="home" href="#">HOME</a>
-        <img class="aboutuslogo" src="./images/pppng-transparent-computer-icons-icon-design-about-us-miscellaneous-text-logo-thumbnail (1).png">
-        <a href="AboutUs.html">ABOUT US</a>
-        <img class="faqlogo" src="./images/Untitled.png">
-        <a href="#">FAQ</a>
-    </nav>
-  <div class="blank">    
-    <div class="img img1">
-    </div>
-    <div class="textpath">
-      <div class="text1">
-      <p>         Роботиката променя начина, по който<br>
-        функционираме.В производството роботите<br>
-        вземат В производството роботите вземат<br>
-        на себе си еднотонни и опасни задачи,<br>
-        осигурявайки по-голяма ефективност и<br>
-        прецизност. В медицината роботите<br>
-        подпомагат хирурзите в извършването<br>
-        на  сложни операции.В земеделието<br>
-        автономни дронове и роботи помагат<br>
-        в отглеждането на растенията и<br>
-        събирането на реколтата.<br>
-      </p>
-      </div>
-      <div class="text2">
-        <p>
-        Всекидневието ни е облекчено от умни<br>
-устройства като роботични прахосмукачки<br>
-и гласови асистенти.Тези технологии<br>
-предоставят нови възможности и решения,<br>
-но също така създават и предизвикателства.<br>
-Ние трябва да разгледаме въпроси относно<br>
-загубата на работни места, защитата<br>
-на личната ни информация и етичната<br>
-употреба на изкуствения интелект.<br>
-С балансиран подход и внимателност,<br>
-можем да създадем бъдеще,<br>
-в което роботиката служи на<br>
-обществото като цяло.<br>
-      </p>
-    </div>
-      <div class="text3">
-        <p>Тези нови технологии също така създават<br>
-        въпроси относно етиката на роботиката <br>
-        и изкуствения интелект. Каква е<br>
-        отговорността ни към роботите<br>
-        и как ги програмираме да вземат<br>
-        решения в сложни ситуации?<br>
-        С разширяването на роботиката, се<br>
-        издигат и правни въпроси.<br>
-        Как трябва да бъдат регулирани правата<br>
-        и отговорностите на роботите?<br>
-        Какви са последиците на роботите,<br>
-        които допускат грешки или причиняват щети?<br>
-      </p>
-      </div>
-    </div>
-    <div class="img img2" ></div>
-  </div>
+<body id="bgd">
   
-<div class="photo-grid">
-  <div class="types">
-    <h1>TYPES OF ROBOTS</h1>
+  <a href="#top" id="scrollToTopButton">
+    <img src="../shkembe-chorba/images/input_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="Scroll to Top">
+</a>
+  <a id="top"></a>
+  <nav>
+    <label>
+      <input type="checkbox" id="menu" />
+      <div class="hamb-menu">
+        <div class="strip strip1"></div>
+        <div class="strip strip2"></div>
+        <div class="strip strip3"></div>
+      </div>
+      <ul class="nav-El">
+        <li><a href="" class="nav-link">HOMEPAGE</a></li>
+        <li>
+          <a href="./pages/AboutUs.html" class="nav-link">ABOUT US</a>
+        </li>
+        <li>
+          <a href="./pages/contactus.html" class="nav-link">CONTACT US</a>
+        </li>
+        <li>
+          <a href="../shkembe-chorba/pages/faq.html" class="nav-link">FAQ</a>
+        </li>
+      </ul>
+    </label>
+  </nav>
+  <div class="blank">
+    <div class="zaglawie"><h1>
+      Changing your<br>
+      idea of what<br>
+      robots can do.
+            </h1></div> 
+            <div class="citat-1-1-1"><p>Without people, technology solves nothing. </p></div>   
   </div>
-  <div class="img1-1"><img src="../shkembe-chorba/images/1.jpg" alt="">
-    <div class="Industrial">
-      <h1>Industrial</h1>
-    </div>  
-    <div class="info1-1">
-      <p>Industrial robots are <br> designed for <br>manufacturing and <br> industrial processes.</p>
-    </div>
-    <div class="learnmore1">
-      <h1>LEARN MORE</h1>
+  <div class="about-robots-section">
+    <h1></h1>
+    <div class="wrapper">
+      <!--* Section One -->
+      <div class="section section-one">
+        <div class="bg-image">
+            <h2>Industrial</h2>
+            <h2 class="robots1">Robots</h2>
+            <p>
+              Industrial robots are designed for
+              manufacturing and industrial processes.
+            </p>
+            <a href="./pages/Industrial.html">Learn More</a>
+        </div>
+      </div>
+
+      <!--* Section Two -->
+      <div class="section section-two">
+        <div class="bg-image">
+            <h2>Service</h2>
+            <h2 class="robots2">Robots</h2>
+            <p>
+              Service robots are designed to assist
+               humans in non-industrial settings.
+            </p>
+            <a href="./pages/service.html">Learn More</a>
+        </div>
+      </div>
+
+      <!--* Section Three -->
+      <div class="section section-three">
+        <div class="bg-image">
+            <h2>Educational</h2>
+            <h2 class="robots3">Robots</h2>
+            <p>
+              Educational robots are
+               designed to teach and assist in
+               the learning process.
+            </p>
+            <a href="./pages/Educational.html">Learn More</a>
+        </div>
+      </div>
+
+      <!--* Section Four -->
+      <div class="section section-four">
+        <div class="bg-image">
+            <h2>Autonomous</h2>
+            <h2 class="robots4">Robots</h2>
+            <p>
+              Autonomous robots are capable of 
+              operating independently without human intervention.
+            </p>
+            <a href="./pages/Autonomous.html">Learn More</a>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- end of 1 -->
-  <div class="img2-2"> <img src="../shkembe-chorba/images/2.jpg" alt=""> 
-    <div class="service">
-    <h1>Service</h1>
-    <h1 class="robotsin">Robots</h1>
-  </div>  
-  <div class="info2-2">
-    <p> Service robots are designed <br> to assist humans in non-<br>industrial settings.</p>
-  </div>
-  <div class="learnmore2">
-    <h1>LEARN MORE</h1>
-  </div>
-</div>
-<!-- end of 2 -->
-  <div class="img3"><img src="../shkembe-chorba/images/3.jpg" alt="">
-    <div class="Educational">
-      <h1>Educational</h1>
-    </div>  
-    <div class="robotsinf">
-      <h1>Robots</h1>
-    </div>
-    <div class="info3-3">
-      <p>Educational robots are <br>designed to teach and assist <br>in the learning process.</p>
-    </div>
-    <div class="learnmore3">
-      <h1>LEARN MORE</h1>
-    </div>
-  </div>
-  <!-- end of 3 -->
-  <div class="img4"><img src="../shkembe-chorba/images/4.jpg" alt="">
-    <div class="Autonomous">
-      <h1>Autonomous</h1>
-      <h1 class="robots">Robots</h1>
-    </div>  
-    <div class="info4-4">
-      <p>Autonomous robots are <br>capable of operating<br> independently without<br> human intervention.</p>
-    </div>
-    <div class="learnmore4">
-      <h1>LEARN MORE</h1>
-    </div>
-  </div>
-</div>
-</div>
 <div class="news">
  <img src="../shkembe-chorba/images/cta-atlas1.png" class="phnews"> 
  <div class="latest"><h1>Latest</h1><h1 class="h1-2">News</h1></div>
- <div class="breaking-1"><p>breaking news in the world</p></div>
- <div class="breaking-2"><p>of robotics</p></div>
- <div class="showmore">
+ <div class="breaking-1"><p>breaking news in the world <br>of robotics</p></div>
+ <a class="showmore" target="_blank" href="./pages/latestnews.html">
   <h1>SHOW MORE</h1>
- </div>
+ </a>
 </div>
 </body>
