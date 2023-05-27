@@ -51,14 +51,13 @@ body{
     gap: 400px;
 }
 .info1{
-    background-color: rgba(202, 203, 204, 1);
-    display: flex;
-    justify-content: center;
     width: 135px;
     height: 130px;
+    background-image: url("../images/profilepicturev2.jpg");
+    background-size: cover;
+    justify-content: center;
     border-radius: 200px;
     text-align: center;
-    color: white;
     transition: 0.2s;
 }
 .infos3{
@@ -71,8 +70,8 @@ body{
     margin-top: -10px;
 }
 .info2{
-    background-color: rgba(202, 203, 204, 1);
-    display: flex;
+   background-image: url("../images/profilepicturev2\ \(2\).jpg");
+    background-size:cover ;
     justify-content: center;
     width: 135px;
     height: 130px;
@@ -92,7 +91,8 @@ body{
     margin-top: -20px;
 }
 .info3{
-    background-color: rgba(202, 203, 204, 1);
+    background-image: url("../images/profilepicturev2\ \(1\).jpg");
+    background-size: cover;
     width: 135px;
     height: 130px;
     border-radius: 200px;
@@ -101,7 +101,8 @@ body{
     transition: 0.2s;
 }
 .info4{
-    background-color: rgba(202, 203, 204, 1);
+    background-image: url("../images/055b5652-706e-4f8e-87b2-a820b5a37480.jpg");
+    background-size: cover;
     width: 135px;
     height: 130px;
     border-radius: 200px;
@@ -142,65 +143,128 @@ body{
     top:610px;
     justify-content: center;
 }
-.simeon{
-    background-color: rgba(202, 203, 204, 1);
-    width: 135px;
-    height: 130px;
-    border-radius: 200px;
-    transition: 0.2s;
-}
-.rashkow{
-    background-color: rgba(202, 203, 204, 1);
-    width: 135px;
-    height: 130px;
-    border-radius: 200px;
-    transition: 0.2s;
-}
-.nedko{
-    background-color: rgba(202, 203, 204, 1);
-    width: 135px;
-    height: 130px;
-    border-radius: 200px;
-    transition: 0.2s;
-}
-.Perla{
-    background-color: rgba(202, 203, 204, 1);
-    width: 135px;
-    height: 130px;
-    border-radius: 200px;
-    transition: 0.2s;
-}
+
 
 .info1:hover{
-    width: 155px;
-    height: 150px;
-}
-.Perla:hover{
-    width: 155px;
-    height: 150px;
+    transform: scale(1.15);
+    box-shadow: 15px 10px 15px black;   
+    -moz-box-shadow: inset 10px 10px 100px #000000;
+    -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
 .info2:hover{
-    width: 155px;
-    height: 150px;
-}
-.nedko:hover{
-    width: 155px;
-    height: 150px;
+    transform: scale(1.15);
+    box-shadow: 15px 10px 15px black;
+    -moz-box-shadow: inset 10px 10px 100px #000000;
+    -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
 .info3:hover{
-    width: 155px;
-    height: 150px;
-}
-.simeon:hover{
-    width: 155px;
-    height: 150px;
+    transform: scale(1.15);
+    box-shadow: 15px 10px 15px black;
+    -moz-box-shadow: inset 10px 10px 100px #000000;
+    -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
 .info4:hover{
-    width: 155px;
-    height: 150px;
+    transform: scale(1.15);
+    box-shadow: 15px 10px 15px black;
+    -moz-box-shadow: inset 10px 10px 100px #000000;
+    -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
-.rashkow:hover{
-    width: 155px;
-    height: 150px;
+.info1::before{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    content:"Perla Hristova";
+    opacity: 0;
+    color: white;
 }
+.info1:hover:before{
+
+    opacity: 1;
+}
+.info1::after{
+    display: flex;
+    justify-content: center;
+    
+    content:"Scrum";
+    opacity: 0;
+    color: white;
+}
+.info1:hover:after{
+
+    opacity: 1;
+}
+.info2::before{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    content:"Nedqlko Libchev";
+    opacity: 0;
+    color: white;
+}
+.info2:hover:before{
+
+    opacity: 1;
+}
+.info2::after{
+    display: flex;
+    justify-content: center;
+    
+    content:"Designer";
+    opacity: 0;
+    color: white;
+}
+.info2:hover:after{
+
+    opacity: 1;
+}
+.info3::before{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    content:"Lychezar Rashkov";
+    opacity: 0;
+    color: white;
+}
+.info3:hover:before{
+
+    opacity: 1;
+}
+.info3::after{
+    display: flex;
+    justify-content: center;
+    
+    content:"Font-End";
+    opacity: 0;
+    color: white;
+}
+.info3:hover:after{
+
+    opacity: 1;
+}
+.info4::before{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    content:"Simeon Stefanov";
+    opacity: 0;
+    color: white;
+}
+.info4:hover:before{
+
+    opacity: 1;
+}
+.info4::after{
+    display: flex;
+    justify-content: center;
+    
+    content:"Font-End";
+    opacity: 0;
+    color: white;
+}
+.info4:hover:after{
+    opacity: 1;
+}
+
+
+
 

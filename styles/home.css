@@ -502,6 +502,7 @@ text-align: center;
   margin-left: 298px;
   position: relative; 
   z-index: 1;
+  transition: 0.2s;
 }
 .learnmore1 > h1 {
 font-size: 25px;
@@ -552,6 +553,7 @@ color: white;
   margin-left: 310px;
   position: relative; 
   z-index: 1;
+  transition: 0.2s;
 }
 .learnmore2 > h1 {
 font-size: 25px;
@@ -597,6 +599,7 @@ color: white;
   margin-left: 298px;
   position: relative;
   z-index: 1;
+  transition: 0.2s;
 }
 .learnmore3 > h1 {
 font-size: 25px;
@@ -661,6 +664,8 @@ color: white;
   margin-left: 42%;
   position: relative; 
   z-index: 1;
+  transition: 0.2s;
+
 }
 .learnmore4 > h1 {
 font-size: 25px;
@@ -729,4 +734,16 @@ margin-top: -15px;
 .showmore:hover{
   background-color: white;
   color:rgb(0, 94, 255);
+}
+.learnmore1:hover{
+  opacity: 0.7;
+}
+.learnmore2:hover{
+  opacity: 0.7;
+}
+.learnmore3:hover{
+  opacity: 0.7;
+}
+.learnmore4:hover{
+  opacity: 0.7;
 }
