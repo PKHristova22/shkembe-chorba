@@ -121,11 +121,12 @@ background-color: black;
     color: white;
     margin-left: 36px;
 }
-#space-top-2{
+.space-top-2{
     margin-top: 10px;
     color: white;
     font-size: 17px;
     margin-left: 36px;
+    display: none;
 }
 .arrow-1{
     margin-top: -37px;
