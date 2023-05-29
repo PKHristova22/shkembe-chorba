@@ -3,7 +3,8 @@
 @import "./AboutUs.css";
 @import url(./scrollbar.css);
 @import url(faq.css);
-
+@import url(./functionscrool.css);
+@import url(./industrial.css);
 * {
 margin: 0;
 padding: 0;

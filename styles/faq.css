@@ -1,5 +1,5 @@
 @import url(./navbar.css);
-
+@import url(./functionscrool.css);
 
 body{
     overflow-x: hidden;
@@ -78,7 +78,7 @@ content: "";
 position: absolute;
 width: 100%;
 height: 2px;
-top: -3px;
+top: -110px;
 left: -10px;
 background-color: black;
 }
