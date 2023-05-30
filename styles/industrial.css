@@ -1,7 +1,5 @@
-.bi-1{
-    width: 100%;
-    height: 100vh;
+@import url(../styles/navbar.css);
+.bgimg-faq{
     background-image: url(../images/Group\ 12.png);
     background-position: no-repeat;
-    background-size: cover;
 }
