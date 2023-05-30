@@ -1,406 +1,73 @@
 @import url(./navbar.css);
-@import url(./functionscrool.css);
 
-body{
-    overflow-x: hidden;
-}
-.faq1-1{
-text-align: center;
-color: white;
-position: relative;
-font-size: 26px;
-}
-.faq2-2{
-    color: white;
-    text-align: start;
-    padding-left: 15px;
-    font-size: 43px;
-    padding-top: 45px
-}
 .faqblank1-1-1{
-    position: relative;
+    width: 80%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-self: center;
     align-items: center;
-    width: 1500px;
-    height: 5000px;
-    margin-left: 18px;
-    margin-top: 50px;
-    background-color: #515D6A;
-    margin-bottom: 20px;
+    justify-items: center;
+    background-color: cadetblue;
+    justify-content: left;
 }
-button{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: none !important;
-    border: none !important;
-    font: inherit !important;
-    color: inherit !important;
-    cursor: pointer;
-    outline: none;
-}
+
 .ex-co{
     display: flex;
-    color: white;
-    gap: 792px;
-    margin: 20;
-    margin-top: -310%;;
+    gap: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.faq-1{
-    width: 1024px;
-    height: 150px;
-    position: absolute;
-    margin-top: -296%;
-    left: 252px;
+
+.question-only{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: left;
+    width: 100%;
 }
-.faq-1::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
+
+.faq > div{
+    display: flex;
+    align-items: center;
 }
-.faq-2{
-    width: 1024px;
-    height: 150px;
-    position: absolute;
-    margin-top: -270%;
-    left: 252px;
-}
-.faq-2::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -110px;
-left: -10px;
-background-color: black;
-}
-.faq-3{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -237%;
-    left: 252px;
-}
-.faq-3::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-4{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -208%;
-    left: 252px;
-}
-.faq-4::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-#space-top-1{
-    margin-top: 10px;
-    color: white;
-    margin-left: 36px;
-}
+
 .space-top-2{
-    margin-top: 10px;
-    color: white;
-    font-size: 17px;
-    margin-left: 36px;
-    display: none;
+    margin-left: 50px;
+    opacity: 0;
+    width: 90ch;
+    margin-bottom: 15px;
+    transition: opacity 0.3s linear, max-height 0.3s linear;
+    max-height: 0;
 }
-.arrow-1{
-    margin-top: -37px;
-    margin-left: -15px;
-}
-.faq-5{
-    width: 1000px;
-    height: 150px;
+
+.faq::before{
+    content: "";
+    background-color: black;
+    width: 80%;
+    height: 3px;
     position: absolute;
-    margin-top: -179%;
-    left: 252px;
+    top: 0;
+    left: 15px;
+    transition: all 0.3s linear;
 }
-.faq-5::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
+
+.all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.faq-6{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -149%;
-    left: 252px;
+
+.show{
+    opacity: 1;
+    max-height: 200px;
 }
-.faq-6::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
+
+.select > img{
+    transition: 0.1s linear transform;
 }
-.faq-7{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -120%;
-    left: 252px;
-}
-.faq-7::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-8{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -91%;
-    left: 252px;
-}
-.faq-8::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-9{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -59%;
-    left: 252px;
-}
-.faq-9::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-10{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: -30%;
-    left: 252px;
-}
-.faq-10::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-11{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 0%;
-    left: 252px;
-}
-.faq-11::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-12{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 32%;
-    left: 252px;
-}
-.faq-12::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-13{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 61%;
-    left: 252px;
-}
-.faq-13::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-14{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 96%;
-    left: 252px;
-}
-.faq-14::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-15{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 125%;
-    left: 252px;
-}
-.faq-15::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-16{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 154%;
-    left: 252px;
-}
-.faq-16::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-17{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 280%;
-    left: 252px;
-}
-.faq-17::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-18{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 187%;
-    left: 252px;
-}
-.faq-18::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-19{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 219%;
-    left: 252px;
-}
-.faq-19::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
-}
-.faq-20{
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    margin-top: 248%;
-    left: 252px;
-}
-.faq-20::before
-{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-top: -3px;
-left: -10px;
-background-color: black;
+
+.question-only{
+    width: fit-content;
 }
