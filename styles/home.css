@@ -428,4 +428,29 @@ a {
 body{
   background-color: #000;
 }
+@media (width < 45em)
+{
+  .wrapper{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .section{
+    padding: 0;
+    height: 50vh;
+  }
 
+  .bg-image{
+    background-position: right;
+  }
+  
+  .zaglawie{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .citat-1-1-1{
+    padding-top: 100px;
+    margin: 0 10px;
+  }
+}
