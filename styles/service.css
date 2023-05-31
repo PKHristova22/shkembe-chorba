@@ -3,9 +3,6 @@
     background-image: url(../images/Group\ 12.png);
     background-position: no-repeat;
 }
-.Big-1{
-
-}
 .industrial-1{
     display: flex;
     justify-content: center;
@@ -13,6 +10,16 @@
     font-size: 30px;
     color: white;
     
+}
+.img2-1-1 img{
+    margin-left: 8px;
+}
+.img3-2-1 img{
+    margin-left: 37px;
+}
+.img2-3-1 img{
+    margin-top: -3px;
+    margin-bottom: 16px;
 }
 .in-1 {
     display: flex;
@@ -33,14 +40,6 @@
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
-}
-.img2-3-1 p{
-}
-.img3-2-1 p{
-    
-}
-.img2-1-1 p{
-    
 }
 .intext-1-1{
     display: flex;
@@ -98,7 +97,8 @@
 .mini-1{
     display: flex;
     color: white;
-    justify-content: left;
+    justify-content: center;
+    text-align: center;
     font-size: 20px;
     margin-top: 40px;
     margin-left: 100px;
