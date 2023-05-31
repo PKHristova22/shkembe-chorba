@@ -5,9 +5,26 @@
 @import url(faq.css);
 @import url(./functionscrool.css);
 @import url(./industrial.css);
+@import url(./Autonomous.css);
+@import url(./education.css);
+@import url(./service.css);
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: Comfortaa;
+}
+.en-page-1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -42px;
+    z-index: 1000;
+    right: 0;
+    margin-right: 36px;
+}
+.en-page-1 > a{
+    color: white;
+    font-size: 20px;
 }

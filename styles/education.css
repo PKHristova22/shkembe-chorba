@@ -3,10 +3,10 @@
     background-image: url(../images/Group\ 12.png);
     background-position: no-repeat;
 }
-.Big{
+.Big-3{
 
 }
-.industrial{
+.industrial-3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,35 +14,35 @@
     color: white;
     
 }
-.in {
+.in-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:25px;
     color: white;
 }
-.in p{
+.in-3 p{
     
     margin-top: 10px;
 }
-.industrial h1{
+.industrial-3 h1{
     font-weight:100 ;
     margin-left: 0px;
 }
-.Images{
+.Images-3{
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
 }
-.img2-3 p{
+.img2-3-3 p{
 }
-.img3-2 p{
+.img3-2-3 p{
     
 }
-.img2-1 p{
+.img2-1-3 p{
     
 }
-.intext-1{
+.intext-1-3{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -50,16 +50,16 @@
     text-align: center;
     color: #41C5FA;
 }
-.intext-2{
+.intext-2-3{
     display: flex;
     justify-content: center;
     font-size: 30px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 20px;
     color: #41C5FA;
 
 }
-.intext-3{
+.intext-3-3{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -69,7 +69,7 @@
 
 
 }
-.intext2-1{
+.intext2-1-3{
     display: flex;
     color: white;
     justify-content: center;
@@ -78,7 +78,7 @@
     text-align: center;
     margin-top: 20px;
 }
-.intext2-2{
+.intext2-2-3{
     display: flex;
     color: white;
     justify-content: center;
@@ -86,7 +86,7 @@
     text-align: center;
     margin-top: 20px;
 }
-.intext2-3{
+.intext2-3-3{
     display: flex;
     color: white;
     justify-content: center;
@@ -95,7 +95,7 @@
     margin-top: 20px;
     margin-left: -10px;
 }
-.mini{
+.mini-3{
     display: flex;
     color: white;
     justify-content: left;
@@ -103,7 +103,7 @@
     margin-top: 40px;
     margin-left: 100px;
 }
-.navigate{
+.navigate-3{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
@@ -111,15 +111,15 @@
     text-decoration: none;
     color: white;
 }
-.navigate1 a{
+.navigate1-3 a{
     text-decoration: underline;
         color: white;
 }
-.navigate2 a{
+.navigate2-3 a{
     text-decoration: underline;
         color: white;
 }
-.navigate3 a{
+.navigate3-3 a{
     text-decoration: underline;
     color: white;
 
