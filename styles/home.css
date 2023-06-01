@@ -1,5 +1,5 @@
 @import url(./functionscrool.css);
-.blank {
+.homepage-blank {
   background-image: url(../images/Robot_Hand-1024x576-MM-80\ 1.jpg);
   width: 100%;
   height: 650px;
@@ -10,14 +10,14 @@
   background-position: center;
   background-size: cover;
 }
-.zaglawie {
+.homepage-head {
   color: white;
   display: flex;
   font-size: 45px;
   justify-content: center;
   padding-top: 119px;
 }
-.citat-1-1-1 {
+.homepage-quote {
   color: white;
   display: flex;
   font-size: 25px;
@@ -25,7 +25,7 @@
   padding-top: 189px;
 }
 
-.about-robots-section {
+.homepage-about-robots-section {
   width: 100%;
   height: 100vh;
   background-color: #181a1b;
@@ -34,10 +34,10 @@
   align-items: center;
   justify-content: center;
 }
-.about-robots-section > h1 {
+.homepage-about-robots-section > h1 {
   padding-left: 3%;
 }
-.wrapper {
+.homepage-wrapper {
   width: 100%;
   height: 100%;
   display: grid;
@@ -46,38 +46,38 @@
   justify-content: center;
   gap: 15px;
 }
-.section-one,
-.section-three {
+.homepage-section-one,
+.homepage-section-three {
   padding-left: 15px;
 }
-.section {
+.homepage-section {
   position: relative;
   width: 100%;
   height: 100%;
   color: white;
 }
 
-.section-one > .bg-image {
+.homepage-section-one > .homepage-first-div {
   background-image: url("../images/1.jpg");
 }
-.section-two,
-.section-four {
+.homepage-section-two,
+.homepage-section-four {
   padding-right: 15px;
 }
 
-.section-two > .bg-image {
+.homepage-section-two > .homepage-first-div {
   background-image: url("../images/2.jpg");
 }
 
-.section-three > .bg-image {
+.homepage-section-three > .homepage-first-div {
   background-image: url("../images/3.jpg");
 }
 
-.section-four > .bg-image {
+.homepage-section-four > .homepage-first-div {
   background-image: url("../images/4.jpg");
 }
 
-.bg-image {
+.homepage-first-div {
   background-position: center;
   background-position: no-repeat;
   background-size: cover;
@@ -89,18 +89,18 @@
   flex-direction: column;
 }
 
-.bg-image > h2 {
+.homepage-first-div > h2 {
   position: absolute;
   top: 25px;
 }
 
-.bg-image > p {
+.homepage-first-div > p {
   margin-top: 15px;
   width: 30ch;
   font-size: 1.252rem;
 }
 
-.bg-image > a {
+.homepage-first-div > a {
   position: absolute;
   bottom: 25px;
   color: white;
@@ -110,256 +110,37 @@
   border-radius: 10px;
 }
 
-.about-robots-section > h1 {
+.homepage-about-robots-section > h1 {
   color: white;
   margin: 20px auto;
 }
-.robots1 {
+.homepage-robot1 {
   left: 166px;
   color: #15bbbe;
 }
-.robots2 {
+.homepage-robot2 {
   left: 120px;
   color: #15bbbe;
 }
-.robots3 {
+.homepage-robot3 {
   left: 196px;
   color: #15bbbe;
 }
-.robots4 {
+.homepage-robot4 {
   left: 190px;
   color: #15bbbe;
 }
-.news {
+.homepage-news {
   width: 100%;
   height: 400px;
   background-color: #181a1b;
-}
-
-.types{
-text-align: center;
- margin-left: 41%;
- margin-bottom: 42%;
- color: white;
-
-
-}
-
-.img1-1 {
-  background-color: rgb(212, 13, 226);
-  width: 715px;
-  height: 280px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 5%;
-  margin-left: 2%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  
- 
-}
-.Industrial{
-  align-items: center;
-  margin-top: -288px;
-  margin-left: 170px;
-  font-size: 25px;
-  color: white;
-}
-.info1-1{
-  font-size: 30px;
-  color: white;
-  margin-top: 10px;
-  margin-left: 20px;
-
-}
-.learnmore1{
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #515D6A;
-  margin-top: 1.5%;
-  margin-left: 298px;
-  position: relative; 
-  z-index: 1;
-  transition: 0.2s;
-}
-.learnmore1 > h1 {
-font-size: 25px;
-text-align: center;
-padding-top: 12px;
-color: white;
-}
-.img2-2 {
-  background-color: rgb(212, 13, 226);
-  width: 715px;
-  height: 280px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right: 2%;
-  margin-top: 5%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.service{
-  align-items: center;
-  margin-top: -288px;
-  margin-left: 91px;
-  font-size: 25px;
-  color: white;
-}
-.robotsin{
-  align-items: center;
-  margin-top: -58px;
-  margin-left: 171px;
-  color: #15BBBE;
-  font-size: 50px;
-}
-.info2-2{
-  font-size: 30px;
-  color: white;
-  margin-top: 29px;
-  margin-left: 20px;
-
-}
-.learnmore2{
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #515D6A;
-  margin-top: 3.5%;
-  margin-left: 310px;
-  position: relative; 
-  z-index: 1;
-  transition: 0.2s;
-}
-.learnmore2 > h1 {
-font-size: 25px;
-text-align: center;
-padding-top: 12px;
-color: white;
-}
-
-
-.img3 {
-  background-color: rgb(212, 13, 226);
-  width: 715px;
-  height: 280px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
- margin-bottom: 1.9%;
-  margin-left: 2%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.Industrial{
-  align-items: center;
-  margin-top: -288px;
-  margin-left: 170px;
-  font-size: 25px;
-  color: white;
-}
-.info3-3{
-  font-size: 30px;
-  color: white;
-  margin-top: 10px;
-  margin-left: 20px;
-
-}
-.learnmore3{
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #515D6A;
-  margin-top: 6%;
-  margin-left: 298px;
-  position: relative;
-  z-index: 1;
-  transition: 0.2s;
-}
-.learnmore3 > h1 {
-font-size: 25px;
-text-align: center;
-padding-top: 12px;
-color: white;
-}
-.Educational{
-  align-items: center;
-  margin-top: -288px;
-  margin-left: 64px;
-  font-size: 25px;
-  color: white;
-}
-.robotsinf{
-  align-items: center;
-  margin-top: -58px;
-  margin-left: 339px;
-  color: #15BBBE;
-  font-size: 25px;
-}
-
-.img4 {
-  background-color: rgb(212, 13, 226);
-  width: 715px;
-  height: 280px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 1.9%;
-  margin-right: 2%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.Autonomous{
-  align-items: center;
-  margin-top: -288px;
-  margin-left: 47px;
-  font-size: 25px;
-  color: white;
-}
-.robots{
-  align-items: center;
-  margin-top: -58px;
-  margin-left: 287px;
-  color: #15BBBE;
-}
-.info4-4{
-  font-size: 30px;
-  color: white;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.learnmore4{
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #515D6A;
-  margin-top: 1%;
-  margin-left: 42%;
-  position: relative; 
-  z-index: 1;
-  transition: 0.2s;
-
-}
-.learnmore4 > h1 {
-font-size: 25px;
-text-align: center;
-padding-top: 12px;
-color: white;
 }
 .news{
   width: 100%;
   height: 400px;   
   background-color: #181A1B;
 }
-.phnews{
+.homepage-phnews{
   width: 100%;
   height: 373px;
   background-repeat: no-repeat;
@@ -368,7 +149,7 @@ color: white;
   padding-top: 30px;
   padding-bottom: 0px;
 }
-.latest {
+.homepage-latest {
   margin-left: 1%;
   margin-top: -22%;
   font-size: 27px;
@@ -376,17 +157,17 @@ color: white;
   flex-direction: column;
   color: white;
 }
-.h1-2 {
+.homepage-align-nd {
   margin-left: 10px;
   margin-top: -15px;
 }
-.breaking-1 {
+.homepage-button {
   margin-left: 56%;
   margin-top: 1%;
   font-size: 40px;
   color: white;
 }
-.showmore {
+.homepage-showmore-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -404,21 +185,21 @@ color: white;
   transition: 0.2s;
   color: white;
 }
-.showmore:hover {
+.homepage-showmore:hover {
   background-color: #515d6a;
   color: #ffffff;
 }
 
-.learnmore1:hover{
+.homepage-learnmore1:hover{
   opacity: 0.7;
 }
-.learnmore2:hover{
+.homepage-learnmore2:hover{
   opacity: 0.7;
 }
-.learnmore3:hover{
+.homepage-learnmore3:hover{
   opacity: 0.7;
 }
-.learnmore4:hover{
+.homepage-learnmore4:hover{
   opacity: 0.7;
 }
 
@@ -430,26 +211,26 @@ body{
 }
 @media (width < 45em)
 {
-  .wrapper{
+  .homepage-wrapper{
     grid-template-columns: repeat(1, 1fr);
   }
   
-  .section{
+  .homepage-section{
     padding: 0;
     height: 50vh;
   }
 
-  .bg-image{
+  .homepage-first-div{
     background-position: right;
   }
   
-  .zaglawie{
+  .homepage-head{
     font-size: 30px;
     margin-top: 10px;
     margin-left: 20px;
   }
 
-  .citat-1-1-1{
+  .homepage-quote{
     padding-top: 100px;
     margin: 0 10px;
   }

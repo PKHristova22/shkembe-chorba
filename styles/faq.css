@@ -1,6 +1,6 @@
 @import url(./navbar.css);
 
-.faqblank1-1-1{
+.faqblank{
     width: 95%;
     height: 100%;
     display: flex;
@@ -13,14 +13,14 @@
     margin-bottom: 25px;
     overflow-y: hidden;
 }
-#bf{
+#faq-quote{
     text-align: center;
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 50px;
 }
-#po{
+#faq-intro{
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
