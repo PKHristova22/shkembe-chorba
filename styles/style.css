@@ -9,11 +9,15 @@
 @import url(./education.css);
 @import url(./service.css);
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Comfortaa;
+}
+#nav-bg-none {
+  background-color: #03080c;
 }
 .en-page-1 {
   width: 30px;
