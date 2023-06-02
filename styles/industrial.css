@@ -1,127 +1,126 @@
 @import url(../styles/navbar.css);
-.bgimg-faq{
-    background-image: url(../images/Group\ 12.png);
-    background-position: no-repeat;
+.bgimg-faq {
+  background-image: url(../images/Group\ 12.png);
+  background-position: no-repeat;
 }
-.Big{
-
-}
-.industrial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: white;
-    
+.industrial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
 }
 .in {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size:25px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
 }
-.in p{
-    
-    margin-top: 10px;
+.in p {
+  margin-top: 10px;
 }
-.industrial h1{
-    font-weight:100 ;
-    margin-left: 0px;
+.industrial h1 {
+  font-weight: 100;
+  margin-left: 0px;
 }
-.Images{
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
+.Images {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
 }
-.img2-3 p{
+.intext-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-left: -30px;
+  text-align: center;
+  color: #41c5fa;
 }
-.img3-2 p{
-    
+.intext-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 0px;
+  color: #41c5fa;
 }
-.img2-1 p{
-    
+.intext-3 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-left: -10px;
+  text-align: center;
+  color: #41c5fa;
 }
-.intext-1{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    margin-left: -30px;
-    text-align: center;
-    color: #41C5FA;
+.intext2-1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 20px;
+  margin-left: -20px;
+  text-align: center;
+  margin-top: 20px;
 }
-.intext-2{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 0px;
-    color: #41C5FA;
-
+.intext2-2 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
-.intext-3{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    margin-left: -10px;
-    text-align: center;
-    color: #41C5FA;
-
-
+.intext2-3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -10px;
 }
-.intext2-1{
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-size: 20px;
-    margin-left: -20px;
-    text-align: center;
-    margin-top: 20px;
+#ind-img1-bg img{
+margin-left: 40px;
 }
-.intext2-2{
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+#ind-img2-bg img{
+  margin-left: 38px;
 }
-.intext2-3{
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -10px;
+#ind-img3-bg img{
+  margin-left: 45px;
 }
-.mini{
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-size: 20px;
-    margin-top: 40px;
-    text-align: center;
-    margin-left: 100px;
+.mini {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 100px;
 }
-.navigate{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
+.drop-menu {
+  width: 150px;
 }
-.navigate1 a{
-    text-decoration: underline;
-        color: white;
+#DropDown {
+  display: none;
+  user-select: none;
 }
-.navigate2 a{
-    text-decoration: underline;
-        color: white;
+#DropDown:checked ~ .Drop {
+  top: 60px;
+  opacity: 1;
+  pointer-events: all;
 }
-.navigate3 a{
-    text-decoration: underline;
-    color: white;
-
+.Drop {
+  display: table-column;
+  pointer-events: none;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 70px;
+  margin-left: 20px;
+  position: absolute;
+  top: 15px;
+  border-radius: 5px;
+  transition: 0.2s;
+  opacity: 0;
+  cursor: pointer;
 }

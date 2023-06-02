@@ -10,21 +10,76 @@
 @import url(./service.css);
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Comfortaa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comfortaa;
 }
-.en-page-1{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    margin-top: -42px;
-    z-index: 1000;
-    right: 0;
-    margin-right: 36px;
+.en-page-1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: -42px;
+  z-index: 1000;
+  right: 0;
+  margin-right: 36px;
 }
-.en-page-1 > a{
-    color: white;
-    font-size: 20px;
+.en-page-1 > a {
+  color: white;
+  font-size: 20px;
+}
+.Drop li {
+  margin-top: 5px;
+  color: white;
+}
+.Drop {
+  margin-top: -10px;
+  margin-left: 3px;
+}
+.types-button-shortcut {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  margin-top: -46px;
+  user-select: none;
+  color: rgb(0, 0, 0);
+  background-color: #e0fffc;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  z-index: 1001;
+}
+#type-size-button {
+  font-size: 18px;
+}
+.types-button-shortcut {
+  transition: 0.2s;
+}
+.types-button-shortcut:hover {
+  font-size: 22px;
+}
+#type-size-button:hover {
+  font-size: 20px;
+}
+.frs-option {
+  transition: 225ms;
+}
+.frs-option:hover {
+  font-size: 22px;
+}
+.sc-option {
+  transition: 225ms;
+}
+.sc-option:hover {
+  font-size: 22px;
+}
+.th-option {
+  transition: 0225ms;
+}
+.th-option:hover {
+  font-size: 22px;
 }

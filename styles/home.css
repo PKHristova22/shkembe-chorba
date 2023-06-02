@@ -10,6 +10,19 @@
   background-position: center;
   background-size: cover;
 }
+#bg-home-alignment {
+  font-size: 30px;
+}
+#bg-home-quote-alignemnt {
+  margin-top: 100px;
+}
+#bg-home-robot-left {
+  margin-left: 80px;
+}
+
+#bg-home-robot-right {
+  margin-left: 70px;
+}
 .homepage-head {
   color: white;
   display: flex;
@@ -135,12 +148,7 @@
   height: 400px;
   background-color: #181a1b;
 }
-.news{
-  width: 100%;
-  height: 400px;   
-  background-color: #181A1B;
-}
-.homepage-phnews{
+.homepage-phnews {
   width: 100%;
   height: 373px;
   background-repeat: no-repeat;
@@ -150,20 +158,19 @@
   padding-bottom: 0px;
 }
 .homepage-latest {
-  margin-left: 1%;
-  margin-top: -22%;
-  font-size: 27px;
+  display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: -2%;
+  margin-top: -21.5%;
+  font-size: 27px;
   color: white;
+  width: 300px;
 }
-.homepage-align-nd {
-  margin-left: 10px;
-  margin-top: -15px;
-}
-.homepage-button {
-  margin-left: 56%;
-  margin-top: 1%;
+.homepage-latestnews-text {
+  margin-top: 0%;
+  margin-left: 57%;
   font-size: 40px;
   color: white;
 }
@@ -171,66 +178,74 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  position: relative;
   width: 200px;
   height: 50px;
+  font-size: 11px;
   border-radius: 10px;
-  border: #515d6a 5px solid;
+  border: #515d6a 4px solid;
   background-color: none;
   margin-left: 1%;
-  margin-top: 4%;
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+  margin-top: 3%;
   transition: 0.2s;
   color: white;
 }
-.homepage-showmore:hover {
+.homepage-showmore-text:hover {
   background-color: #515d6a;
   color: #ffffff;
 }
-
-.homepage-learnmore1:hover{
+#homepage-distances {
+  margin-left: 2%;
+  margin-top: -21.5%;
+}
+#homepage-al {
+  margin-left: 57%;
+  font-size: 35px;
+}
+#homepage-button-al {
+  margin-left: 5%;
+  margin-top: 3.6%;
+}
+.homepage-robot1:hover {
   opacity: 0.7;
 }
-.homepage-learnmore2:hover{
+.homepage-robot2:hover {
   opacity: 0.7;
 }
-.homepage-learnmore3:hover{
+.homepage-robot3:hover {
   opacity: 0.7;
 }
-.homepage-learnmore4:hover{
+.homepage-robot4:hover {
   opacity: 0.7;
 }
 
 a {
   text-decoration: none;
 }
-body{
+body {
   background-color: #000;
 }
-@media (width < 45em)
-{
-  .homepage-wrapper{
+@media (width < 45em) {
+  .homepage-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  
-  .homepage-section{
+
+  .homepage-section {
     padding: 0;
     height: 50vh;
   }
 
-  .homepage-first-div{
+  .homepage-first-div {
     background-position: right;
   }
-  
-  .homepage-head{
+
+  .homepage-head {
     font-size: 30px;
     margin-top: 10px;
     margin-left: 20px;
   }
 
-  .homepage-quote{
+  .homepage-quote {
     padding-top: 100px;
     margin: 0 10px;
   }
