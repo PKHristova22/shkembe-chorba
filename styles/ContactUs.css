@@ -54,7 +54,8 @@ body{
     transition: 0.2s;
     position: absolute;
 }
-input:focus ~ label,
+input:focus ~ label, 
+input:not(:placeholder-shown) ~ label,
 input:focus ~ :valid{
     font-size: 0.85em;
     transform:translateX(-10px) translateY(-30px);
@@ -70,7 +71,6 @@ input:focus ~ :valid{
     font-size: 1em;
     padding: 0 35px 0 5px;
 }
-
 .LastName{
     display:flex;
     justify-content: center;
@@ -161,6 +161,7 @@ input:focus ~ :valid{
     border-bottom: white 2px solid;
     width: 200px;
     margin: 30px 0;
+    
 } 
 .Date label{
      display:flex;
@@ -192,7 +193,7 @@ input:focus ~ :valid{
     align-items: center;
 }
 .Messege{
-    color: white;
+    color: rgb(0, 0, 0);
     background: transparent;
     font-size: 15px;
     margin-left:10px;
@@ -221,7 +222,7 @@ input:focus ~ :valid{
 }
 .Labels{
     
-    margin-left: 610px;
+    margin-left: 515px;
     background-color: #637283;
     width: 500px;
     height:500px;
@@ -229,3 +230,6 @@ input:focus ~ :valid{
     border-radius: 5px;
     margin-bottom: -10px;
 }
+  .LabelBdate:not(:placeholder-shown) {
+    color: rgb(255, 255, 255);
+  }
