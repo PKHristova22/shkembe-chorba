@@ -1,23 +1,20 @@
-#bgd{
-    background-color: #03080C;
-  }
-  #scrollToTopButton {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-  }
-  
-  body:target #scrollToTopButton,
-  body:hover #scrollToTopButton {
-    display: block;
-  }
-  
-  #scrollToTopButton img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    filter: brightness(0) invert(1);
-  }
-  
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+body:target #scrollToTopButton,
+body:hover #scrollToTopButton {
+  display: block;
+}
+
+#scrollToTopButton img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
