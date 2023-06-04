@@ -62,6 +62,7 @@
 .homepage-section-one,
 .homepage-section-three {
   padding-left: 15px;
+  
 }
 .homepage-section {
   position: relative;
@@ -144,16 +145,36 @@
   left: 190px;
   color: #15bbbe;
 }
-.homepage-news {
+.full-show-more{
+  padding-top: 20px;
   width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181A1B;
+}
+.homepage-news {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
   height: 400px;
-  background-color: #181a1b;
+  background-image: url(../images/cta-atlas1.png);
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 50px;
+  justify-content: center;
+  padding-left: 35px;
 }
 .homepage-phnews {
   width: 100%;
   height: 373px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center ;
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 0px;
@@ -163,15 +184,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: -2%;
-  margin-top: -21.5%;
   font-size: 27px;
   color: white;
-  width: 300px;
+  align-self: flex-start;
+
 }
 .homepage-latestnews-text {
-  margin-top: 0%;
-  margin-left: 57%;
+ padding: 50px 0;
   font-size: 40px;
   color: white;
 }
@@ -179,15 +198,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  align-self: flex-start;
   width: 200px;
   height: 50px;
   font-size: 11px;
   border-radius: 10px;
   border: #515d6a 4px solid;
   background-color: none;
-  margin-left: 1%;
-  margin-top: 3%;
   transition: 0.2s;
   color: white;
 }
@@ -230,7 +247,13 @@ body {
   .homepage-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+  .homepage-news{
+    margin-top: 110vh;
+  }
 
+  .homepage-latestnews-text{
+    font-size: 30px;
+  }
   .homepage-section {
     padding: 0;
     height: 50vh;
@@ -251,3 +274,4 @@ body {
     margin: 0 10px;
   }
 }
+

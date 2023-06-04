@@ -352,4 +352,15 @@ body {
 .text1-4 p {
   font-family: "Comfortaa", cursive;
   font-size: 20px;
+}@media (width < 1000px)
+{
+  .text1-1, .text1-2, .text1-3, .text1-4 {
+    position: static;
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  .Quote::before, .Quote::after, .aboutus::after, .aboutus::before {
+    display: none;
+  }
 }

@@ -137,7 +137,7 @@ nav {
   width: 55px;
   height: 55px;
 }
-@media (width > 45em) {
+@media (width > 1000px) {
   .nav-El {
     top: 0;
     background-color: #ffffff00;

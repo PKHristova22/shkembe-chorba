@@ -96,7 +96,7 @@ button {
 
 .show {
   opacity: 1;
-  max-height: 200px;
+  max-height: 1000px;
 }
 
 .select > img {
@@ -108,4 +108,13 @@ button {
 }
 .faq {
   width: 80vw;
+}
+@media (width < 1400px) {
+  .ex-co{
+    gap: 80%;
+  }
+
+  .space-top-2{
+    width: 30ch;
+  }
 }

@@ -87,3 +87,42 @@
 .th-option:hover {
   font-size: 22px;
 }
+@media (width < 1000px)
+{
+  .en-page-1{
+    left: 70px;
+    top: 20px;
+    margin: 0 !important;
+  }
+  #bg-space-button{
+    left: 180px;
+  }
+
+  .Images, .Images-3, .Images-1, .Images-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+  }
+
+  img{
+    margin: 0 !important;
+  }
+
+  .ed-img-2, .ed-img-1, .ed-img-3, .ser-img-1, .ser-img-2, .ser-img-3, .aut-img-1, .aut-img-2, .aut-img-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1, p{
+    text-align: center;
+  }
+
+  .mini, .mini-3, .mini-1, .mini-2{
+    margin: 20px 40px;
+  }
+}
+ 
