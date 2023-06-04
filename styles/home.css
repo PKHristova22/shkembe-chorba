@@ -101,6 +101,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .homepage-first-div > h2 {
@@ -249,6 +250,9 @@ body {
   }
   .homepage-news{
     margin-top: 110vh;
+  }
+  .homepage-latest, .homepage-showmore-text {
+    align-self: center;
   }
 
   .homepage-latestnews-text{
