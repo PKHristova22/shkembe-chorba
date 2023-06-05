@@ -66,6 +66,7 @@ input:focus ~ :valid{
     background: transparent;
     border-left: none;
     border-right: none;
+    color: white;
     border-top: none;
     outline: none;
     font-size: 1em;
@@ -106,6 +107,7 @@ input:focus ~ :valid{
     border-right: none;
     border-top: none;
     outline: none;
+    color: white;
     font-size: 1em;
     padding: 0 35px 0 5px;
     
@@ -143,6 +145,7 @@ input:focus ~ :valid{
     border-right: none;
     border-top: none;
     outline: none;
+    color: white;
     font-size: 1em;
     padding: 0 35px 0 5px;
     
@@ -193,7 +196,7 @@ input:focus ~ :valid{
     align-items: center;
 }
 .Messege{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: transparent;
     font-size: 15px;
     margin-left:10px;
@@ -222,7 +225,7 @@ input:focus ~ :valid{
 }
 .Labels{
     
-    margin-left: 605px;
+    margin-left: 515px;
     background-color: #637283;
     width: 500px;
     height:500px;
@@ -232,4 +235,10 @@ input:focus ~ :valid{
 }
   .LabelBdate:not(:placeholder-shown) {
     color: rgb(255, 255, 255);
+  }
+ ::placeholder{
+    color: white;
+ }
+ textarea {
+    resize: none;
   }

@@ -50,7 +50,7 @@ body{
     margin-left: -1078px;
     width: 1050px;
     height: 10px;
-    background-color: red ;
+    background-color: rgb(10, 55, 87) ;
 }
 .img-text{
     display: flex;
