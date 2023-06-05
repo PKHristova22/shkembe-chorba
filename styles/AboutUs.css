@@ -1,6 +1,6 @@
 @import url(./navbar.css);
-body {
-  background-color: #181a1b;
+body{
+  background-color: #181A1B;;
 }
 .aboutus {
   display: flex;
@@ -170,6 +170,63 @@ body {
   -moz-box-shadow: inset 10px 10px 100px #000000;
   -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
+.info1-change{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212324  ;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.2s;
+}
+.info1:hover ~ .info1-change{
+  opacity:1;
+}
+.info2-change{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212324;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.2s;
+}
+.info2:hover ~ .info2-change{
+  opacity:1;
+}
+.info3-change{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212324;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.2s;
+}
+.info3:hover ~ .info3-change{
+  opacity:1;
+}
+.info4-change{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212324;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.2s;
+}
+.info4:hover ~ .info4-change{
+  opacity:1;
+}
+
 .info1::before {
   display: flex;
   justify-content: center;
