@@ -13,44 +13,44 @@
 </head>
 
 <body>
-  <nav>
-    <label>
-      <input type="checkbox" id="menu" />
-      <div class="hamb-menu">
-        <div class="strip strip1"></div>
-        <div class="strip strip2"></div>
-        <div class="strip strip3"></div>
-      </div>
-      <ul class="nav-El">
-        <li><a href="../../index.html" class="nav-link">HOMEPAGE</a></li>
-        <li><a class="nav-link" href="./faq.html">FAQ</a></li>
-        <li>
-          <a href="../en/AboutUs.html" class="nav-link">ABOUT US</a>
-        </li>
-        <li>
-          <a href="../en/contactus.html" class="nav-link">CONTACT US</a>
-        </li>
-      </ul>
-    </label>
-  </nav>
-  <div class="en-page-1"><a href="../bg/index-bg.html">BG</a></div>
-  <div class="ContactUs">
-    <div class="Contact">
-      <h1>Contact Shkembe Chorba</h1>
-    </div>
-    <div class="ContactInformation">
-      <div class="GitLogo">
-        <a href="https://github.com/PKHristova22/shkembe-chorba" target="_blank">
-          <img src="../../images/7819588.png" class="GitLogo">
-        </a>
-      </div>
-    </div>
+    <nav>
+        <label>
+          <input type="checkbox" id="menu" />
+          <div class="hamb-menu">
+            <div class="strip strip1"></div>
+            <div class="strip strip2"></div>
+            <div class="strip strip3"></div>
+          </div>
+          <ul class="nav-El">
+            <li><a href="../../index.html" class="nav-link">HOMEPAGE</a></li>
+            <li><a class="nav-link" href="./faq.html">FAQ</a></li>
+            <li>
+              <a href="../en/AboutUs.html" class="nav-link">ABOUT US</a>
+            </li>
+            <li>
+              <a href="../en/contactus.html" class="nav-link">CONTACT US</a>
+            </li>
+          </ul>
+        </label>
+    </nav>
 
-    <div class="Labels">
-      <div class="container">
-        <div class="Labels1">
-          <div class="LabelName">
-            <input type="text" class="LabelName1" id="Fname" placeholder=" ">
+    <div class="ContactUs">
+      <div class="Contact">
+        <h1>Contact Shkembe Chorba</h1>
+      </div>
+      <div class="ContactInformation">
+        <div class="GitLogo">
+          <a href="https://github.com/PKHristova22/shkembe-chorba" target="_blank">
+            <img src="../../images/7819588.png" class="GitLogo">
+          </a>
+        </div>
+      </div>
+
+      <div class="Labels">
+        <div class="container">
+    <div class="Labels1">
+        <div class="LabelName">
+            <input type="text" name="" class="LabelName1" required="required" placeholder="Name">
             <label for="Fname" class="Name">Name</label>
           </div>
           <div class="LastName">
@@ -58,45 +58,49 @@
             <label for="Lname" class="LName">Last Name</label>
           </div>
         </div>
+         
 
-        
-  </div>
-  <div class="Labels2">
-    <div class="LabelEmail">
-      <input type="email" class="LabelEmail1" required="required" placeholder=" ">
-      <label for="" class="Email">Email</label>
+          <div class="Labels2">
+            <div class="LabelEmail">
+              <input type="email" class="LabelEmail1" id="Email" placeholder=" ">
+              <label for="Email" class="Email">Email</label> 
+            </div>
+            <div class="Date">
+              <input type="text" name="date" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text' " class="LabelBdate" id="Bdate" placeholder=" ">
+              <label for="Bdate" class="Bdate">Birth Date</label>
+            </div>
+          </div>
+
+          <div class="Labels3">
+            <label>
+              <input type="radio" value="male" name="gender" class="male">
+              male
+            </label>
+            
+            <label>
+              <input type="radio" value="female" name="gender" class="female">
+              female
+            </label>
+            
+            <label>
+              <input type="radio" value="other" name="gender" class="other">
+              other
+            </label>
+          </div>
+          
+          <div class="Labels4">
+            <textarea name="message" cols="50" rows="11" class="Messege" placeholder="Messege"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="Send">Send</button>
+      </div>
     </div>
-    <div class="Date" required="required">
-      <input type="text" name="date" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text' "
-        class="LabelBdate" placeholder=" ">
-      <label for="" class="Bdate">Birth Date</label>
-    </div>
+    
   </div>
-  <div class="Labels3">
-    <label>
-      <input type="radio" value="male" name="gender" class="male">
-      male
-    </label>
-
-    <label>
-      <input type="radio" value="female" name="gender" class="female">
-      female
-    </label>
-
-    <label>
-      <input type="radio" value="other" name="gender" class="other">
-      other
-    </label>
-  </div>
-
-  <div class="Labels4">
-    <textarea name="messege" cols="50" rows="11" class="Messege" placeholder="Messege"></textarea>
-
-  </div>
-  </div>
-  </div>
-  <div class="button">
-    <button class="Send">Send</button>
+</div>
 </div>
 </div>
 </div>
