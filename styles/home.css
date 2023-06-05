@@ -314,3 +314,30 @@ body {
     margin: 0 10px;
   }
 }
+.learnmore1,.learnmore2,.learnmore3,.learnmore4{
+  transition: 0.2s;
+}
+.learnmore1:hover{
+  opacity: 0.6;
+}
+.learnmore2:hover{
+  opacity: 0.6;
+}
+.learnmore3:hover{
+  opacity: 0.6;
+}
+.learnmore4:hover{
+  opacity: 0.6;
+}
+.learnmore1:active{
+  background-color: white;
+}
+.learnmore2:active{
+  background-color: white;
+}
+.learnmore3:active{
+  background-color: white;
+}
+.learnmore4:active{
+  background-color: white;
+}
