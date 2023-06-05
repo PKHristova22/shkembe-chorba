@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- Navigation menu -->
     <nav>
         <label>
           <input type="checkbox" id="menu" />
@@ -33,6 +34,7 @@
           </ul>
         </label>
     </nav>
+    <!-- End of navigation menu -->
 
     <div class="ContactUs">
       <div class="Contact">
@@ -48,18 +50,19 @@
 
       <div class="Labels">
         <div class="container">
-    <div class="Labels1">
-        <div class="LabelName">
-            <input type="text" name="" class="LabelName1" required="required" placeholder="Name">
-            <label for="Fname" class="Name">Name</label>
+          <!-- First Name and Last Name fields -->
+          <div class="Labels1">
+            <div class="LabelName">
+                <input type="text" name="" class="LabelName1" required="required" placeholder=" ">
+                <label for="Fname" class="Name">Name</label>
+              </div>
+              <div class="LastName">
+                <input type="text" class="LabelName2" id="Lname" placeholder=" ">
+                <label for="Lname" class="LName">Last Name</label>
+              </div>
           </div>
-          <div class="LastName">
-            <input type="text" class="LabelName2" id="Lname" placeholder=" ">
-            <label for="Lname" class="LName">Last Name</label>
-          </div>
-        </div>
-         
-
+          
+          <!-- Email and Birth Date fields -->
           <div class="Labels2">
             <div class="LabelEmail">
               <input type="email" class="LabelEmail1" id="Email" placeholder=" ">
@@ -71,6 +74,7 @@
             </div>
           </div>
 
+          <!-- Gender selection -->
           <div class="Labels3">
             <label>
               <input type="radio" value="male" name="gender" class="male">
@@ -88,12 +92,14 @@
             </label>
           </div>
           
+          <!-- Message field -->
           <div class="Labels4">
             <textarea name="message" cols="50" rows="11" class="Messege" placeholder="Messege"></textarea>
           </div>
         </div>
       </div>
 
+      <!-- Send button -->
       <div class="button">
         <button class="Send">Send</button>
       </div>
@@ -104,6 +110,5 @@
 </div>
 </div>
 </div>
-</body>
 </body>
 </html>
