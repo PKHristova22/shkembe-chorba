@@ -46,22 +46,22 @@
         <div class="container">
     <div class="Labels1">
         <div class="LabelName">
-            <input type="text" class="LabelName1">
-            <label for="Fname" class="Name">Name</label> 
+            <input type="text" name="" class="LabelName1" required="required" placeholder="Name">
+            <label for="Fname" class="Name">Name</label>
         </div>
         <div class="LastName">
-            <input type="text" class="LabelName2">
+            <input type="text" class="LabelName2" required="required" placeholder="">
             <label for="Lname" class="LName">Last Name</label>
         </div>
         </div>
     </div>
     <div class="Labels2">
         <div class="LabelEmail">
-            <input type="email" class="LabelEmail1">
+            <input type="email" class="LabelEmail1" required="required">
             <label for="" class="Email">Email</label> 
     </div>
-    <div class="Date">
-        <input type="date" class="LabelBdate">
+    <div class="Date" required="required">
+        <input type="text" name="date" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text' " class="LabelBdate">
         <label for="" class="Bdate">Birth Date</label>
     </div>
     </div>

@@ -1,0 +1,114 @@
+@import url(./navbar.css);
+body{
+    background-color: #181A1B;
+    color:white;
+}
+.triple{
+    display: flex;
+    height:800px;
+    width: 100% ;
+    gap: 60px;
+    margin-left: -25px;
+    justify-content: center;
+}
+.triple1 img{ 
+    margin-top: 100px;
+    margin-left: 30px;  
+    width: 1050px;
+    height: 600px; 
+    border-radius: 10px; 
+}
+.triple2{
+    margin-top:100px;
+    
+}
+.triple2 img{
+    width: 333px;
+    height: 283px;
+    border-radius: 10px; 
+}
+.triple2-2{
+    margin-top: 30px;
+}
+.RoboticsNews{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 70px; 
+    width: 1050px;
+    height: 80px;
+    background-color: black;
+}
+.RoboticsNews1{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+    width: 1050px;
+}
+.RoboticsNews2{
+    margin-top: 80px;
+    margin-left: -1078px;
+    width: 1050px;
+    height: 10px;
+    background-color: red ;
+}
+.img-text{
+    display: flex;
+    gap: 60px;
+}
+.img01{
+    margin-top: 75px;
+    margin-left: 70px;
+}
+.img01 img{
+    height: 350px;
+}
+.text01{
+    margin-top: 75px;
+    font-size: 28px;
+}
+.img-text2{
+    display: flex;
+    gap: 60px;
+}
+.img02{
+    margin-top: 75px;
+    margin-left: 70px;
+}
+.img02 img{
+    height: 350px;
+}
+.text02{
+    margin-top: 75px;
+    font-size: 28px;
+}
+.img-text3{
+    display: flex;
+    gap: 60px;
+}
+.img03{
+    margin-top: 75px;
+    margin-left: 70px;
+}
+.img03 img{
+    height: 350px;
+}
+.text03{
+    margin-top: 75px;
+    font-size: 28px;
+}
+.img-text4{
+    display: flex;
+    gap: 60px;
+}
+.img04{
+    margin-top: 75px;
+    margin-left: 70px;
+}
+.img04 img{
+    height: 350px;
+}
+.text04{
+    margin-top: 75px;
+    font-size: 28px;
+}
