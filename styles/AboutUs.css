@@ -9,7 +9,7 @@ body {
   color: white;
   height: 40px;
   margin-top: 30px;
-  font-family: "Comfortaa", cursive;
+
   font-size: 30px;
 }
 .aboutus::before {
@@ -37,7 +37,7 @@ body {
   justify-content: center;
   font-size: larger;
   color: white;
-  font-family: "Comfortaa", cursive;
+
 }
 
 .infos {
@@ -121,7 +121,7 @@ body {
   color: white;
   height: 40px;
   margin-top: 42px;
-  font-family: "Comfortaa", cursive;
+
   font-size: 22px;
 }
 .Quote::before {
@@ -174,7 +174,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  font-family: "Comfortaa", cursive;
+
   content: "Perla Hristova";
   opacity: 0;
   color: white;
@@ -185,7 +185,7 @@ body {
 .info1::after {
   display: flex;
   justify-content: center;
-  font-family: "Comfortaa", cursive;
+
   content: "Scrum";
   opacity: 0;
   color: white;
@@ -198,7 +198,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 55px;
-  font-family: "Comfortaa", cursive;
+
   content: "Nedqlko Libchev";
   opacity: 0;
   color: white;
@@ -209,7 +209,7 @@ body {
 .info2::after {
   display: flex;
   justify-content: center;
-  font-family: "Comfortaa", cursive;
+
   content: "Designer";
   opacity: 0;
   color: white;
@@ -222,7 +222,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 55px;
-  font-family: "Comfortaa", cursive;
+
   content: "Luchezar Rashkov";
   opacity: 0;
   color: white;
@@ -233,7 +233,7 @@ body {
 .info3::after {
   display: flex;
   justify-content: center;
-  font-family: "Comfortaa", cursive;
+
   content: "Font-End";
   opacity: 0;
   color: white;
@@ -245,7 +245,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 55px;
-  font-family: "Comfortaa", cursive;
+
   content: "Simeon Stefanov";
   opacity: 0;
   color: white;
@@ -256,7 +256,7 @@ body {
 .info4::after {
   display: flex;
   justify-content: center;
-  font-family: "Comfortaa", cursive;
+
   content: "Font-End";
   opacity: 0;
   color: white;
@@ -271,19 +271,19 @@ body {
   color: white;
   margin-top: -75px;
   margin-left: 130px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-1 h1 {
   margin-top: 15px;
   font-size: 40px;
   margin-bottom: 10px;
-  font-family: "Comfortaa", cursive;
+ 
 }
 .text1-1 hr {
   width: 350px;
 }
 .text1-1 p {
-  font-family: "Comfortaa", cursive;
+
   font-size: 20px;
 }
 .text1-2 {
@@ -293,18 +293,18 @@ body {
   color: white;
   margin-top: 210px;
   margin-left: 130px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-2 h1 {
   font-size: 40px;
   margin-bottom: 10px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-2 hr {
   width: 350px;
 }
 .text1-2 p {
-  font-family: "Comfortaa", cursive;
+
   font-size: 20px;
 }
 .text1-3 {
@@ -313,23 +313,23 @@ body {
   color: white;
   margin-top: -75px;
   margin-left: 1100px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-3 h1 {
   margin-top: 15px;
   font-size: 40px;
   margin-bottom: 10px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-3 hr {
   width: 350px;
 }
 .text1-3 p {
-  font-family: "Comfortaa", cursive;
+
   font-size: 20px;
 }
 .text1-1 p {
-  font-family: "Comfortaa", cursive;
+
   font-size: 20px;
 }
 .text1-4 {
@@ -339,18 +339,18 @@ body {
   color: white;
   margin-top: 210px;
   margin-left: 1100px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-4 h1 {
   font-size: 40px;
   margin-bottom: 10px;
-  font-family: "Comfortaa", cursive;
+
 }
 .text1-4 hr {
   width: 350px;
 }
 .text1-4 p {
-  font-family: "Comfortaa", cursive;
+
   font-size: 20px;
 }@media (width < 1000px)
 {
