@@ -1,20 +1,19 @@
-
 #scrollToTopButton {
-  display: none;
-  position: fixed;
+  display: none; /* Initially hides the scroll-to-top button */
+  position: fixed; /* Fixes the position of the button in the viewport */
   bottom: 20px;
-  right: 20px;
-  z-index: 999;
+  right: 20px; 
+  z-index: 999; /* Sets the stacking order of the button above other elements on the page */
 }
 
 body:target #scrollToTopButton,
 body:hover #scrollToTopButton {
-  display: block;
+  display: block; /* Displays the scroll-to-top button when the target element is in the URL or when the body is being hovered */
 }
 
 #scrollToTopButton img {
   width: 40px;
   height: 40px;
-  cursor: pointer;
-  filter: brightness(0) invert(1);
+  cursor: pointer; /* Sets the cursor style to a pointer when hovering over the image */
+  filter: brightness(0) invert(1); /* Applies a filter effect to invert the colors of the image */
 }

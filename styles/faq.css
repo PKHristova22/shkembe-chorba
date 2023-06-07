@@ -1,120 +1,126 @@
-@import url(./navbar.css);
+@import url(./navbar.css); /* Imports styles from the 'navbar.css' file */
 
 .faqblank {
-  width: 95%;
+  width: 95%; 
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  justify-items: center;
-  background-color: #515d6a;
-  justify-content: left;
-  margin-bottom: 25px;
-  overflow-y: hidden;
+  display: flex; 
+  flex-direction: column; /* Sets the direction of the flex items to be vertical */
+  justify-self: center; /* Aligns the element vertically in its grid cell */
+  align-items: center; 
+  justify-items: center; /* Aligns the flex items vertically at the center */
+  background-color: #515d6a; 
+  justify-content: left; 
+  margin-bottom: 25px; 
+  overflow-y: hidden; /* Hides the vertical overflow content */
 }
+
 #faq-quote {
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-size: 50px;
+  text-align: center; /* Centers the text horizontally within the element */
+  color: white; 
+  margin-top: 20px; 
+  margin-bottom: 15px; 
+  font-size: 50px; 
 }
+
 #faq-intro {
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  margin-left: 15px;
-  font-size: 40px;
+  color: white; 
+  margin-top: 20px; 
+  margin-bottom: 15px; 
+  margin-left: 15px; 
+  font-size: 40px; 
 }
+
 .ex-co {
-  display: flex;
-  gap: 971px;
-  margin-top: 88px;
+  display: flex; /* Displays the element as a flex container */
+  gap: 971px; /* Sets the gap between flex items to 971 pixels */
+  margin-top: 88px; 
   margin-bottom: 6px;
-  margin-left: 25px;
+  margin-left: 25px; 
   color: white;
 }
+
 #ex-co-1 {
-  gap: 849px;
+  gap: 849px; 
 }
+
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: none !important;
-  border: none !important;
-  font: inherit !important;
-  color: inherit !important;
-  cursor: pointer;
-  outline: none;
+  background: none !important; /* Removes the background of the button */
+  border: none !important; /* Removes the border of the button */
+  font: inherit !important; /* Inherits the font from the parent element */
+  color: inherit !important; /* Inherits the color from the parent element */
+  cursor: pointer; /* Sets the cursor to a pointer */
+
 }
 
 .question-only {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: left;
-  width: 100%;
+  display: flex; 
+  flex-direction: column; 
+  position: relative; /* Sets the position of the element relative to its normal position */
+  justify-content: left; 
+  width: 100%; 
 }
 
 .faq > div {
-  display: flex;
-  align-items: center;
+  display: flex; /* Displays the element as a flex container */
+  align-items: center; /* Aligns the flex items vertically at the center */
 }
 
 .space-top-2 {
-  margin-left: 50px;
-  opacity: 0;
-  width: 90ch;
-  margin-bottom: 15px;
-  transition: opacity 0.3s linear, max-height 0.3s linear;
-  max-height: 0;
-  font-size: 20px;
-  color: white;
+  margin-left: 50px; 
+  opacity: 0; /* Sets the initial opacity of the element to 0 (invisible) */
+  width: 90ch; /* Sets the width of the element to 90 characters */
+  margin-bottom: 15px; 
+  transition: opacity 0.3s linear, max-height 0.3s linear; /* Adds a smooth transition effect for opacity and max-height properties */
+  max-height: 0; 
+  font-size: 20px; 
+  color: white; 
 }
+
 .space-top-1 {
-  color: white;
+  color: white; 
 }
+
 .faq::before {
-  content: "";
+  content: ""; /* Inserts no content before the element */
   background-color: black;
   width: 100%;
-  height: 3px;
-  position: absolute;
-  top: 0;
-  left: 15px;
-  transition: all 0.3s linear;
+  height: 3px; 
+  position: absolute; /* Positions the pseudo-element absolutely */
+  top: 0; 
+  left: 15px; 
+  transition: all 0.3s linear; /* Adds a smooth transition effect for all CSS properties */
 }
 
 .all {
-  width: 100%;
+  width: 100%; /* Sets the width of the element to 100% of its parent container */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .show {
-  opacity: 1;
-  max-height: 1000px;
+  opacity: 1; /* Sets the opacity of the element to 1 (visible) */
+  max-height: 1000px; 
 }
 
 .select > img {
-  transition: 0.1s linear transform;
+  transition: 0.1s linear transform; /* Adds a smooth transition effect for the transform property */
 }
 
 .question-only {
-  width: fit-content;
+  width: fit-content; /* Sets the width of the element to fit its content */
 }
+
 .faq {
-  width: 80vw;
+  width: 80vw; /* Sets the width of the element to 80% of the viewport width */
 }
+
 @media (width < 1400px) {
-  .ex-co{
-    gap: 80%;
+  .ex-co {
+    gap: 80%; /* Sets the gap between flex items to 80% of the container width */
   }
 
-  .space-top-2{
-    width: 30ch;
+  .space-top-2 {
+    width: 30ch; /* Sets the width of the element to 30 characters */
   }
 }
