@@ -102,28 +102,177 @@ color: #A73033;
 #latestnews-text-color-1{
     color: #C9C4BD;
 }
-@media (width < 1500px){
-    .img-text, .img-text2, .img-text3, .img-text4{
-        display: flex;
+.all-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    position: relative;
+    height: 650px;
+}
+
+.trio{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.two-small{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.big-photo-1{
+background-image: url(../images/latestnews/animation/1-1.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-1{
+    background-image: url(../images/latestnews/animation/1-2.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-2{
+    background-image: url(../images/latestnews/animation/1-3.png);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.big-photo-2{  
+    background-image: url(../images/latestnews/animation/2-2\ \(1\).jpg);
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+.big-photo-3{
+    background-image: url(../images/latestnews/animation/3-3.png);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.big-photo-4{
+    background-image: url(../images/latestnews/animation/4-3.webp);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-3{
+    background-image: url(../images/latestnews/animation/2-1.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-4{
+    background-image: url(../images/latestnews/animation/2-3.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-5{
+    background-image: url(../images/latestnews/animation/3-1.svg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-6{
+    background-image: url(../images/latestnews/animation/3-2.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.small-photo-7{
+    background-image: url(../images/latestnews/animation/4-2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}.small-photo-8{
+    background-image: url(../images/latestnews/animation/4-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.big-photo{
+    width: 650px;
+    height: 650px;
+}
+
+.small-photo{
+    width: 300px;
+    height: 300px;
+}
+
+.trio{
+    transition: 0.2s linear;
+}
+
+.trio-2{
+    display: none;
+}
+
+.trio-3{
+    display: none;
+}
+
+.trio-4{
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.left, .right{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+
+@media (width < 1000px){
+    .big-photo{
+        width: 350px;
+        height: 350px;
+    }
+
+    .trio{
         flex-direction: column;
-        gap: 60px;
-        justify-content: center;
+    }
+    
+    .small-photo{
+        width: 350px;
+        height: 350px;
+    }
+
+    .all-section{
+        height: 1200px;
+    }
+
+    .latestnews-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latestnews-text-section{
+        width: 40ch;
+    } 
+
+    .latestnews-all-section{
         align-items: center;
     }
 
     .RoboticsNews{
-        width: 300px;
+        width: 80%;
     }
 
     .RoboticsNews2{
-        width: 300px;
-    }
-
-    body{
-        overflow-x: hidden;
-    }
-
-    .triple2{
-        display: none;
+        width: 100%;
     }
 }
