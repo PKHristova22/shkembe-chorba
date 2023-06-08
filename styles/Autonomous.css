@@ -1,8 +1,12 @@
 @import url(../styles/navbar.css);
+
+/* Background image for the FAQ section */
 .bgimg-faq {
   background-image: url(../images/Group\ 12.png);
   background-position: no-repeat;
 }
+
+/* Styles for the industrial-2 class */
 .industrial-2 {
   display: flex;
   justify-content: center;
@@ -10,25 +14,38 @@
   font-size: 30px;
   color: white;
 }
+
+/* Margin styles for images in the aut-img-1 class */
 .aut-img-1 img {
   margin-left: 38px;
 }
+
+/* Margin styles for images in the aut-img-2 class */
 .aut-img-2 img {
   margin-left: 58px;
 }
+
+/* Margin styles for images in the aut-img-3 class */
 .aut-img-3 img {
   margin-left: 20px;
 }
+
+/* Margin styles for images in the aut-img-bg-1 id */
 #aut-img-bg-1 img{
   margin-left: 48px;
 }
+
+/* Margin styles for images in the aut-img-bg-2 id */
 #aut-img-bg-2 img{
   margin-left: 102px;
 }
+
+/* Margin styles for images in the aut-img-bg-3 id */
 #aut-img-bg-3 img{
   margin-left: 86px;
 }
 
+/* Styles for the in-2 class */
 .in-2 {
   display: flex;
   justify-content: center;
@@ -36,21 +53,31 @@
   font-size: 25px;
   color: white;
 }
+
+/* Margin and color styles for paragraphs within the in-2 class */
 .in-2 p {
   margin-top: 10px;
 }
+
+/* Styles for the h1 within the industrial-2 class */
 .industrial-2 h1 {
   font-weight: 100;
   margin-left: 0px;
 }
+
+/* Styles for the Images-2 class */
 .Images-2 {
   margin-top: 25px;
   display: flex;
   justify-content: space-around;
 }
+
+/* Margin styles for the aut-img-space id */
 #aut-img-space{
   margin-left: 55px;
 }
+
+/* Styles for the intext-1-2 class */
 .intext-1-2 {
   display: flex;
   justify-content: center;
@@ -59,6 +86,8 @@
   text-align: center;
   color: #41c5fa;
 }
+
+/* Styles for the intext-2-2 class */
 .intext-2-2 {
   display: flex;
   justify-content: center;
@@ -67,6 +96,8 @@
   margin-left: 20px;
   color: #41c5fa;
 }
+
+/* Styles for the intext-3-2 class */
 .intext-3-2 {
   display: flex;
   justify-content: center;
@@ -75,6 +106,8 @@
   text-align: center;
   color: #41c5fa;
 }
+
+/* Styles for the intext2-1-2 class */
 .intext2-1-2 {
   display: flex;
   color: white;
@@ -84,6 +117,8 @@
   text-align: center;
   margin-top: 20px;
 }
+
+/* Styles for the intext2-2-2 class */
 .intext2-2-2 {
   display: flex;
   color: white;
@@ -92,6 +127,8 @@
   text-align: center;
   margin-top: 25px;
 }
+
+/* Styles for the intext2-3-2 class */
 .intext2-3-2 {
   display: flex;
   color: white;
@@ -101,6 +138,8 @@
   margin-top: 20px;
   margin-left: -10px;
 }
+
+/* Styles for the mini-2 class */
 .mini-2 {
   display: flex;
   color: white;

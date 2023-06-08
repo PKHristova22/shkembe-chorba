@@ -1,16 +1,20 @@
+/* Styles for the ::-webkit-scrollbar pseudo-element */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 10px; /* Width of the scrollbar */
 }
 
+/* Styles for the body */
 body {
-  overflow: overlay;
+  overflow: overlay; /* Allow scrolling with a visible scrollbar */
 }
 
+/* Styles for the ::-webkit-scrollbar-thumb pseudo-element */
 ::-webkit-scrollbar-thumb {
-  background-color: #48576a;
-  border-radius: 45px;
+  background-color: #48576a; /* Background color of the scrollbar thumb */
+  border-radius: 45px; /* Border radius of the scrollbar thumb */
 }
 
+/* Styles for the ::-webkit-scrollbar-thumb pseudo-element when hovered */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2d3950;
+  background-color: #2d3950; /* Background color of the scrollbar thumb on hover */
 }

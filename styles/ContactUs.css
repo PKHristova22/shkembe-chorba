@@ -1,51 +1,65 @@
 @import url(./navbar.css);
-body{
+
+/* Background and text color for the body */
+body {
     background-color: #181A1B;
-    color:white;
+    color: white;
 }
-.Contact{
+
+/* Styles for the Contact class */
+.Contact {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     font-size: 25px;
 }
-.ContactInformation{
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-    font-size: 30px;
-    margin-top: 10px ;
-}
-.GitLogo{
+
+/* Styles for the ContactInformation class */
+.ContactInformation {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-size: 30px;
+    margin-top: 10px;
 }
-.GitLogo img{
-    width:40px;
+
+/* Styles for the GitLogo class */
+.GitLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the GitLogo image */
+.GitLogo img {
+    width: 40px;
     height: 40px;
     margin-top: 10px;
 }
-.LabelName{
-    display:flex;
+
+/* Styles for the LabelName class */
+.LabelName {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -230px;
     cursor: pointer;
-
 }
-.LabelName1{
+
+/* Styles for the LabelName1 class */
+.LabelName1 {
     position: relative;
     border-bottom: white 2px solid;
     width: 200px;
     margin: 30px 0;
-} 
-.LabelName label{
-     display:flex;
+}
+
+/* Styles for the LabelName label */
+.LabelName label {
+    display: flex;
     justify-content: center;
-    margin-left: -140px ;
+    margin-left: -140px;
     align-items: center;
     position: absolute;
     font-size: 1em;
@@ -54,15 +68,18 @@ body{
     transition: 0.2s;
     position: absolute;
 }
+
+/* Styles for the input field within LabelName class */
 input:focus ~ label, 
 input:not(:placeholder-shown) ~ label,
-input:focus ~ :valid{
+input:focus ~ :valid {
     font-size: 0.85em;
-    transform:translateX(-10px) translateY(-30px);
+    transform: translateX(-10px) translateY(-30px);
 }
 
-.LabelName input{
-    height:50px;
+/* Styles for the input field within LabelName class */
+.LabelName input {
+    height: 50px;
     background: transparent;
     border-left: none;
     border-right: none;
@@ -72,8 +89,10 @@ input:focus ~ :valid{
     font-size: 1em;
     padding: 0 35px 0 5px;
 }
-.LastName{
-    display:flex;
+
+/* Styles for the LastName class */
+.LastName {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -230px;
@@ -81,17 +100,20 @@ input:focus ~ :valid{
     margin-left: 250px;
     cursor: pointer;
 }
-.LabelName2{
+
+/* Styles for the LabelName2 class */
+.LabelName2 {
     position: relative;
     border-bottom: white 2px solid;
     width: 200px;
     margin: 30px 0;
-    
-} 
-.LastName label{
-     display:flex;
+}
+
+/* Styles for the LastName label */
+.LastName label {
+    display: flex;
     justify-content: center;
-    margin-left: -100px ;
+    margin-left: -100px;
     align-items: center;
     position: absolute;
     font-size: 1em;
@@ -100,8 +122,9 @@ input:focus ~ :valid{
     transition: 0.2s;
 }
 
-.LastName input{
-    height:50px;
+/* Styles for the LastName input field */
+.LastName input {
+    height: 50px;
     background: transparent;
     border-left: none;
     border-right: none;
@@ -110,24 +133,28 @@ input:focus ~ :valid{
     color: white;
     font-size: 1em;
     padding: 0 35px 0 5px;
-    
 }
-.LabelEmail{
-    display:flex;
+
+/* Styles for the LabelEmail class */
+.LabelEmail {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -220px;   
-     cursor: pointer;
-    
+    margin-left: -220px;
+    cursor: pointer;
 }
-.LabelEmail1{
+
+/* Styles for the LabelEmail1 class */
+.LabelEmail1 {
     position: relative;
     border-bottom: white 2px solid;
     width: 200px;
-    margin: 30px 0; 
-} 
-.LabelEmail label{
-     display:flex;
+    margin: 30px 0;
+}
+
+/* Styles for the LabelEmail label */
+.LabelEmail label {
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -135,11 +162,12 @@ input:focus ~ :valid{
     color: #fff;
     pointer-events: none;
     transition: 0.2s;
-    margin-left: -140px ;
+    margin-left: -140px;
 }
 
-.LabelEmail input{
-    height:50px;
+/* Styles for the LabelEmail input field */
+.LabelEmail input {
+    height: 50px;
     background: transparent;
     border-left: none;
     border-right: none;
@@ -148,28 +176,32 @@ input:focus ~ :valid{
     color: white;
     font-size: 1em;
     padding: 0 35px 0 5px;
-    
 }
-.Date{
-    display:flex;
+
+/* Styles for the Date class */
+.Date {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 250px;
     margin-top: -110px;
-    color:white;
+    color: white;
     cursor: pointer;
 }
-.LabelBdate{
+
+/* Styles for the LabelBdate class */
+.LabelBdate {
     position: relative;
     border-bottom: white 2px solid;
     width: 200px;
     margin: 30px 0;
-    
-} 
-.Date label{
-     display:flex;
+}
+
+/* Styles for the Date label */
+.Date label {
+    display: flex;
     justify-content: center;
-    margin-left: -100px ;
+    margin-left: -100px;
     align-items: center;
     position: absolute;
     font-size: 1em;
@@ -178,9 +210,9 @@ input:focus ~ :valid{
     transition: 0.2s;
 }
 
-
-.Date input{
-    height:50px;
+/* Styles for the Date input field */
+.Date input {
+    height: 50px;
     background: transparent;
     border-left: none;
     border-right: none;
@@ -188,18 +220,21 @@ input:focus ~ :valid{
     outline: none;
     font-size: 1em;
     padding: 0 35px 0 5px;
-    
 }
-.Labels4{
-    display:flex;
+
+/* Styles for the Labels4 class */
+.Labels4 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.Messege{
+
+/* Styles for the Messege class */
+.Messege {
     color: rgb(255, 255, 255);
     background: transparent;
     font-size: 15px;
-    margin-left:10px;
+    margin-left: 10px;
     max-width: 442px;
     min-width: 441px;
     max-height: 200px;
@@ -207,40 +242,54 @@ input:focus ~ :valid{
     border: white solid 2px;
     cursor: pointer;
 }
-.button{
+
+/* Styles for the button class */
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 35px;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
-.Labels3{
+
+/* Styles for the Labels3 class */
+.Labels3 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    gap:100px;
+    gap: 100px;
     font-size: 20px;
     margin-left: 10px;
 }
-.Labels{
+
+/* Styles for the Labels class */
+.Labels {
     background-color: #637283;
     width: 500px;
-    height:500px;
+    height: 500px;
     margin-top: 20px;
     border-radius: 5px;
     margin-bottom: -10px;
 }
-  .LabelBdate:not(:placeholder-shown) {
+
+/* Styles for the LabelBdate when input is not placeholder-shown */
+.LabelBdate:not(:placeholder-shown) {
     color: rgb(255, 255, 255);
-  }
- ::placeholder{
+}
+
+/* Placeholder styles */
+::placeholder {
     color: white;
- }
- textarea {
+}
+
+/* Disable textarea resizing */
+textarea {
     resize: none;
-  }
-  .ContactUs{
+}
+
+/* Styles for the ContactUs class */
+.ContactUs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +297,7 @@ input:focus ~ :valid{
     gap: 15px;
 }
 
-.button{
+/* Styles for the button class */
+.button {
     margin-bottom: 50px;
 }
- 

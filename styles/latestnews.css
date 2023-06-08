@@ -1,8 +1,12 @@
 @import url(./navbar.css);
+
+/* Styles for the body */
 body{
     background-color: #181A1B;
     color:white;
 }
+
+/* Styles for the triple class */
 .triple{
     display: flex;
     height:800px;
@@ -11,6 +15,8 @@ body{
     margin-left: -25px;
     justify-content: center;
 }
+
+/* Styles for the images inside the triple1 class */
 .triple1 img{ 
     margin-top: 100px;
     margin-left: 30px;  
@@ -18,18 +24,25 @@ body{
     height: 600px; 
     border-radius: 10px; 
 }
+
+/* Styles for the triple2 class */
 .triple2{
     margin-top:100px;
-    
 }
+
+/* Styles for the images inside the triple2 class */
 .triple2 img{
     width: 333px;
     height: 283px;
     border-radius: 10px; 
 }
+
+/* Styles for the triple2-2 class */
 .triple2-2{
     margin-top: 30px;
 }
+
+/* Styles for the RoboticsNews class */
 .RoboticsNews{
     display: flex;
     margin-top: -20px;
@@ -38,6 +51,8 @@ body{
     height: 80px;
     background-color: black;
 }
+
+/* Styles for the RoboticsNews1 class */
 .RoboticsNews1{
     display: flex;
     align-items: center;
@@ -45,6 +60,8 @@ body{
     font-size: 30px;
     width: 1050px;
 }
+
+/* Styles for the RoboticsNews2 class */
 .RoboticsNews2{
     margin-top: 80px;
     margin-left: -1078px;
@@ -52,6 +69,8 @@ body{
     height: 10px;
     background-color: rgb(10, 55, 87) ;
 }
+
+/* Styles for the latestnews-all-section class */
 .latestnews-all-section{
     width: 100%;
     margin-top: 100px;
@@ -61,6 +80,8 @@ body{
     gap: 100px;
     padding: 45px 20px;
 }
+
+/* Styles for the images inside the latestnews-all-section class */
 .latestnews-all-section img {
     max-width: 300px;
     max-height: 300px;  
@@ -69,23 +90,35 @@ body{
     border: 1px outset;
     padding: 20px;    
 }
+
+/* Styles for the links inside the latestnews-text-section class */
 .latestnews-text-section > a{
     font-size: 27px;
 }
+
+/* Styles for the paragraphs inside the latestnews-text-section class */
 .latestnews-text-section > p{
     font-size: 27px;
 }
+
+/* Styles for the latestnews-section class */
 .latestnews-section{
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
+
+/* Styles for the #latestnews-text-color id */
 #latestnews-text-color{
     color: #C9C4BD;
 }
+
+/* Styles for the #latestnews-text-color:hover id */
 #latestnews-text-color:hover{
-color: #A73033;
+    color: #A73033;
 }
+
+/* Styles for the latestnews-text-section class */
 .latestnews-text-section{
     display: flex;
     flex-direction: column;
@@ -96,12 +129,18 @@ color: #A73033;
     background-color: #30394444;
     border-radius: 5px;
 }
+
+/* Styles for the #latestnews-text-bold id */
 #latestnews-text-bold{
     font-weight: bold;
 }
+
+/* Styles for the #latestnews-text-color-1 id */
 #latestnews-text-color-1{
     color: #C9C4BD;
 }
+
+/* Styles for the all-section class */
 .all-section{
     display: flex;
     align-items: center;
@@ -111,131 +150,171 @@ color: #A73033;
     height: 650px;
 }
 
+/* Styles for the trio class */
 .trio{
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
+/* Styles for the two-small class */
 .two-small{
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
+
+/* Styles for the big-photo-1 class */
 .big-photo-1{
-background-image: url(../images/latestnews/animation/1-1.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-image: url(../images/latestnews/animation/1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-1 class */
 .small-photo-1{
     background-image: url(../images/latestnews/animation/1-2.jpg);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-2 class */
 .small-photo-2{
     background-image: url(../images/latestnews/animation/1-3.png);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-.big-photo-2{  
-    background-image: url(../images/latestnews/animation/2-2\ \(1\).jpg);
-      background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+}
+
+/* Styles for the big-photo-2 class */
+.big-photo-2{
+    background-image: url(../images/latestnews/animation/2-2\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Styles for the big-photo-3 class */
 .big-photo-3{
     background-image: url(../images/latestnews/animation/3-3.png);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the big-photo-4 class */
 .big-photo-4{
     background-image: url(../images/latestnews/animation/4-3.webp);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-3 class */
 .small-photo-3{
     background-image: url(../images/latestnews/animation/2-1.jpg);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-4 class */
 .small-photo-4{
     background-image: url(../images/latestnews/animation/2-3.jpg);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-5 class */
 .small-photo-5{
     background-image: url(../images/latestnews/animation/3-1.svg);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-6 class */
 .small-photo-6{
     background-image: url(../images/latestnews/animation/3-2.jpg);
     background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Styles for the small-photo-7 class */
 .small-photo-7{
     background-image: url(../images/latestnews/animation/4-2.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}.small-photo-8{
+}
+
+/* Styles for the small-photo-8 class */
+.small-photo-8{
     background-image: url(../images/latestnews/animation/4-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Styles for the big-photo class */
 .big-photo{
     width: 650px;
     height: 650px;
 }
 
+/* Styles for the small-photo class */
 .small-photo{
     width: 300px;
     height: 300px;
 }
 
+/* Styles for the trio class */
 .trio{
     transition: 0.2s linear;
 }
 
+/* Styles for the trio-2 class */
 .trio-2{
     display: none;
 }
 
+/* Styles for the trio-3 class */
 .trio-3{
     display: none;
 }
 
+/* Styles for the trio-4 class */
 .trio-4{
     display: none;
 }
 
+/* Styles for the body */
 body{
     overflow-x: hidden;
 }
 
+/* Styles for the left and right classes */
 .left, .right{
     position: absolute;
     width: 50px;
     height: 50px;
 }
 
+/* Styles for the left class */
 .left{
     left: 0;
 }
 
+/* Styles for the right class */
 .right{
     right: 0;
 }
 
+/* Media query for screens with width less than 1000px */
 @media (width < 1000px){
     .big-photo{
         width: 350px;

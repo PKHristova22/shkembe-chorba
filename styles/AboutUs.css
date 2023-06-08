@@ -80,6 +80,7 @@ body {
   border-radius: 200px;
   text-align: center;
   transition: 0.2s;
+  position: relative;
 }
 
 .infos2 {
@@ -100,6 +101,7 @@ body {
   text-align: center;
   color: white;
   transition: 0.2s;
+  position: relative;
 }
 .info4 {
   background-image: url("../images/simo.jpg");
@@ -110,6 +112,30 @@ body {
   text-align: center;
   color: white;
   transition: 0.2s;
+  z-index: 10001;
+  position: relative;
+}
+.github-img{
+ max-width: 30px;
+ max-height: 30px;
+position: absolute;
+bottom: 10px;
+left: 55px;
+}
+.link-image-github{
+  display: none;
+}
+.info1:hover > .link-image-github{
+  display: inline; 
+}
+.info2:hover > .link-image-github{
+  display: inline; 
+}
+.info3:hover > .link-image-github{
+  display: inline; 
+}
+.info4:hover > .link-image-github{
+  display: inline; 
 }
 .Quote {
   display: flex;
@@ -162,6 +188,7 @@ body {
   -webkit-box-shadow: inset 10px 10px 100px #000000;
 }
 .info4:hover {
+  display: inline;
   transform: scale(1.15);
   box-shadow: 15px 10px 15px black;
   -moz-box-shadow: inset 10px 10px 100px #000000;
@@ -275,7 +302,7 @@ body {
 .info3::before {
   display: flex;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 35px;
 
   content: "Luchezar Rashkov";
   opacity: 0;

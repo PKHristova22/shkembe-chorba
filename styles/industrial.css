@@ -1,8 +1,12 @@
 @import url(../styles/navbar.css);
+
+/* Styles for the background image in FAQ section */
 .bgimg-faq {
   background-image: url(../images/Group\ 12.png);
   background-position: no-repeat;
 }
+
+/* Styles for the industrial class */
 .industrial {
   display: flex;
   justify-content: center;
@@ -10,6 +14,8 @@
   font-size: 30px;
   color: white;
 }
+
+/* Styles for the in class */
 .in {
   display: flex;
   justify-content: center;
@@ -17,18 +23,26 @@
   font-size: 25px;
   color: white;
 }
+
+/* Styles for the paragraphs inside the in class */
 .in p {
   margin-top: 10px;
 }
+
+/* Styles for the heading in the industrial class */
 .industrial h1 {
   font-weight: 100;
   margin-left: 0px;
 }
+
+/* Styles for the Images class */
 .Images {
   margin-top: 25px;
   display: flex;
   justify-content: space-around;
 }
+
+/* Styles for the intext-1 class */
 .intext-1 {
   display: flex;
   justify-content: center;
@@ -37,6 +51,8 @@
   text-align: center;
   color: #41c5fa;
 }
+
+/* Styles for the intext-2 class */
 .intext-2 {
   display: flex;
   justify-content: center;
@@ -45,6 +61,8 @@
   margin-left: 0px;
   color: #41c5fa;
 }
+
+/* Styles for the intext-3 class */
 .intext-3 {
   display: flex;
   justify-content: center;
@@ -53,6 +71,8 @@
   text-align: center;
   color: #41c5fa;
 }
+
+/* Styles for the intext2-1 class */
 .intext2-1 {
   display: flex;
   color: white;
@@ -62,6 +82,8 @@
   text-align: center;
   margin-top: 20px;
 }
+
+/* Styles for the intext2-2 class */
 .intext2-2 {
   display: flex;
   color: white;
@@ -70,6 +92,8 @@
   text-align: center;
   margin-top: 20px;
 }
+
+/* Styles for the intext2-3 class */
 .intext2-3 {
   display: flex;
   color: white;
@@ -79,15 +103,23 @@
   margin-top: 20px;
   margin-left: -10px;
 }
-#ind-img1-bg img{
-margin-left: 40px;
+
+/* Styles for the images inside the ind-img1-bg id */
+#ind-img1-bg img {
+  margin-left: 40px;
 }
-#ind-img2-bg img{
+
+/* Styles for the images inside the ind-img2-bg id */
+#ind-img2-bg img {
   margin-left: 38px;
 }
-#ind-img3-bg img{
+
+/* Styles for the images inside the ind-img3-bg id */
+#ind-img3-bg img {
   margin-left: 45px;
 }
+
+/* Styles for the mini class */
 .mini {
   display: flex;
   color: white;
@@ -97,18 +129,26 @@ margin-left: 40px;
   text-align: center;
   margin-left: 0px;
 }
+
+/* Styles for the drop-menu class */
 .drop-menu {
   width: 150px;
 }
+
+/* Styles for the DropDown id */
 #DropDown {
   display: none;
   user-select: none;
 }
+
+/* Styles for the Drop class when DropDown is checked */
 #DropDown:checked ~ .Drop {
   top: 60px;
   opacity: 1;
   pointer-events: all;
 }
+
+/* Styles for the Drop class */
 .Drop {
   display: table-column;
   pointer-events: none;

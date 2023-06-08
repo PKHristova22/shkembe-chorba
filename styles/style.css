@@ -1,25 +1,26 @@
-@import "./navbar.css";
-@import "./home.css";
-@import "./AboutUs.css";
-@import url(./scrollbar.css);
-@import url(faq.css);
-@import url(./functionscrool.css);
-@import url(./industrial.css);
-@import url(./Autonomous.css);
-@import url(./education.css);
-@import url(./service.css);
-@import url(./latestnews.css);
-
+@import "./navbar.css"; 
+@import "./home.css"; 
+@import "./AboutUs.css"; 
+@import url(./scrollbar.css); 
+@import url(faq.css); 
+@import url(./functionscrool.css); 
+@import url(./industrial.css); 
+@import url(./Autonomous.css); 
+@import url(./education.css); 
+@import url(./service.css); 
+@import url(./latestnews.css); 
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Comfortaa;
+  font-family: Comfortaa; /* Global styling for all elements with Comfortaa font */
 }
+
 #nav-bg-none {
-  background-color: #03080c;
+  background-color: #03080c; /* Background color for an element with the ID nav-bg-none */
 }
+
 .en-page-1 {
   width: 30px;
   height: 30px;
@@ -27,20 +28,25 @@
   margin-top: -42px;
   z-index: 1000;
   right: 0;
-  margin-right: 36px;
+  margin-right: 36px; /* Positioning and styling for the en-page-1 element */
 }
+
 .en-page-1 > a {
   color: white;
-  font-size: 20px;
+  font-size: 20px; /* Styling for the anchor tag within en-page-1 */
 }
+
 .Drop li {
   margin-top: 5px;
   color: white;
+  /* Styling for the list items within Drop */
 }
+
 .Drop {
   margin-top: -10px;
-  margin-left: 3px;
+  /* Styling for the Drop element */
 }
+
 .types-button-shortcut {
   position: absolute;
   display: flex;
@@ -57,73 +63,116 @@
   border-radius: 5px;
   font-size: 20px;
   z-index: 1001;
+  /* Styling for the types-button-shortcut element */
 }
+
 #type-size-button {
   font-size: 18px;
+  /* Styling for the type-size-button element */
 }
+
 .types-button-shortcut {
   transition: 0.2s;
+  /* Transition effect for the types-button-shortcut element */
 }
+
 .types-button-shortcut:hover {
   font-size: 22px;
+  /* Styling when hovering over the types-button-shortcut element */
 }
+
 #type-size-button:hover {
   font-size: 20px;
+  /* Styling when hovering over the type-size-button element */
 }
+
 .frs-option {
   transition: 225ms;
+  /* Transition effect for the frs-option element */
 }
+
 .frs-option:hover {
   font-size: 22px;
+  /* Styling when hovering over the frs-option element */
 }
+
 .sc-option {
   transition: 225ms;
+  /* Transition effect for the sc-option element */
 }
+
 .sc-option:hover {
   font-size: 22px;
+  /* Styling when hovering over the sc-option element */
 }
+
 .th-option {
   transition: 0225ms;
+  /* Transition effect for the th-option element */
 }
+
 .th-option:hover {
   font-size: 22px;
+  /* Styling when hovering over the th-option element */
 }
-@media (width < 1000px)
-{
-  .en-page-1{
+
+@media (width < 1000px) {
+  .en-page-1 {
     left: 70px;
     top: 20px;
     margin: 0 !important;
-  }
-  #bg-space-button{
-    left: 180px;
+    /* Media query styles for the en-page-1 element */
   }
 
-  .Images, .Images-3, .Images-1, .Images-2{
+  #bg-space-button {
+    left: 180px;
+    /* Media query styles for the bg-space-button element */
+  }
+
+  .Images,
+  .Images-3,
+  .Images-1,
+  .Images-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     gap: 20px;
+    /* Media query styles for the Images section */
   }
 
-  img{
+  img {
     margin: 0 !important;
+    /* Media query styles for all images */
   }
 
-  .ed-img-2, .ed-img-1, .ed-img-3, .ser-img-1, .ser-img-2, .ser-img-3, .aut-img-1, .aut-img-2, .aut-img-3{
+  .ed-img-2,
+  .ed-img-1,
+  .ed-img-3,
+  .ser-img-1,
+  .ser-img-2,
+  .ser-img-3,
+  .aut-img-1,
+  .aut-img-2,
+  .aut-img-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* Media query styles for the ed-img, ser-img, and aut-img sections */
   }
 
-  h1, p{
+  h1,
+  p {
     text-align: center;
+    /* Media query styles for heading and paragraph elements */
   }
 
-  .mini, .mini-3, .mini-1, .mini-2{
+  .mini,
+  .mini-3,
+  .mini-1,
+  .mini-2 {
     margin: 20px 40px;
+    /* Media query styles for the mini sections */
   }
 }
- 

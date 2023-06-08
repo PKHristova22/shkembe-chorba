@@ -11,7 +11,13 @@
   background-position: center; 
   background-size: cover; /* Background size */
 }
+.logo{
+  max-width: 100px;
+  max-height: 100px;
+  position: absolute;
+  top: 5px;
 
+}
 #bg-home-alignment {
   font-size: 30px; 
 }
